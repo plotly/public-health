@@ -43,7 +43,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Dataset on plot.ly               | https://plot.ly/~jackp/18129/                             |
 | Original dataset                 | [Humanitarian Data Exchange (HDE)](http://bit.ly/2zq86Mh) |
 | Dashboard inspiration            | [Simon B. Johnson](http://bit.ly/2zyztRN)                 |
-| Tutorial to make this dashboard  | [Tutorial](tutorials/aid-agencies-dashboard.md)           |
+| Tutorial to make this dashboard  | [Tutorial](tutorials/aid-agency-dashboard.md)             |
 
 #### Example observations
 
