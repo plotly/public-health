@@ -9,7 +9,7 @@
 - [Crossfilter Overview](#crossfilter-overview)
 - [California Measles Outbreak](#california-measles-outbreak)
 - [Aid Agencies during Ebola Outbreak](#aid-agencies-during-ebola-outbreak)
-- [Cause of Death in US Police Reports](#cause-of-death-in-us-police-reports)
+- [U.S. Police officer deaths by cause](#u.s.-police-officer-deaths-by-cause)
 
 ## Crossfilter Overview
 
@@ -56,7 +56,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 
 ![ebola-aid](https://github.com/plotly/public-health/raw/master/screencasts/ebola_humanitarian_aid.gif)
 
-## On Duty US Police officer deaths by cause (1986-2005)
+## U.S. Police officer deaths by cause
 
 | Dashboard Metadata               | Link                                                      |
 | -------------------------------- | --------------------------------------------------------- |
