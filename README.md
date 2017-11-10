@@ -1,6 +1,6 @@
  # ⚕ Public health dashboards and tutorials using open data
  
- > Public health dashboards and tutorials, hosted on plot.ly. Plot.ly is free for public data - [create an account](https://plot.ly/organize/). All dashboards were created without coding using plotly's online chart and dashboard creator.
+ > Collection of public health dashboards and tutorials, hosted on plot.ly. Plot.ly is free for public data - [create an account](https://plot.ly/organize/). All dashboards were created without coding using plotly's online chart and dashboard creator.
  
  ***
  
