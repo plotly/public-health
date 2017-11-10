@@ -27,7 +27,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Original dataset                 | [Project Tycho at U. Pittsburgh](http://bit.ly/2zrVG6s) |
 | Tutorial to make this dashboard  | [Tutorial](tutorials/measles-dashboard.md)              |
 
-#### Example insights
+#### Example observations
 
 - You can see a share fall in measles cases after 1968 when the vaccinne was introduced.
 - There were smaller outbreaks in 1988 and 1991.
@@ -45,7 +45,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Dashboard inspiration            | [Simon B. Johnson](http://bit.ly/2zyztRN)                 |
 | Tutorial to make this dashboard  | [Tutorial](tutorials/aid-agencies-dashboard.md)           |
 
-#### Example insights
+#### Example observations
 
 - Liberia had the most reported cases and most aid December 10, 2013
 - Only 11 aid organizations were reported in Sierra Leone
