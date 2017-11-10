@@ -63,7 +63,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Link to dashboard                | https://plot.ly/dashboard/jackp:18052/present             |
 | Dataset on plot.ly               | https://plot.ly/~public.health/17/                        |
 | Original dataset                 | [FiveThirtyEight](http://bit.ly/237YWtv)                  |
-| Dashboard inspiration            | [FiveThirtyEight](http://53eig.ht/2AsMFqG)                 |
+| Dashboard inspiration            | [FiveThirtyEight](http://53eig.ht/2AsMFqG)                |
 | Tutorial to make this dashboard  | [Tutorial](tutorials/police-report-deaths.md)             |
 | Plotly.js charts in dashboard    | Pie chart, scatter plot, choropleth map                   |
 
@@ -74,3 +74,20 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - Wyoming has the lowest police officer death rate by gunfire
 
 ![on-duty-police-officer-deaths](https://github.com/plotly/public-health/raw/master/screencasts/on_duty_policy_deaths.png)
+
+## Comparing 1990 and 2015 Infant Mortality Index
+
+| Dashboard Metadata               | Link                                                      |
+| -------------------------------- | --------------------------------------------------------- |
+| Link to dashboard                | https://plot.ly/dashboard/jackp:18103/present             |
+| Dataset on plot.ly               | https://plot.ly/~jackp/18100                              |
+| Original dataset                 | [World Bank](http://bit.ly/2i2SBjs)                       |
+| Dashboard inspiration            | [World Bank](http://bit.ly/2i2SBjs)                       |
+| Tutorial to make this dashboard  | [Tutorial](tutorials/infant-mortality-index.md)           |
+| Plotly.js charts in dashboard    | Choropleth maps, scatter plot                             |
+
+#### Example observations
+
+- IMI improved in every country except Dominca between 1990 and 2005
+
+![infant-mortality-index](https://github.com/plotly/public-health/raw/master/screencasts/infant_mortality_index.png)
