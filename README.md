@@ -9,6 +9,7 @@
 - [Crossfilter Overview](#crossfilter-overview)
 - [California Measles Outbreak](#california-measles-outbreak)
 - [Aid Agencies during Ebola Outbreak](#aid-agencies-during-ebola-outbreak)
+- [Cause of Death in US Police Reports](#cause-of-death-in-us-police-reports)
 
 ## Crossfilter Overview
 
@@ -26,6 +27,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Dataset on plot.ly               | https://plot.ly/~jackp/18114/                           |
 | Original dataset                 | [Project Tycho at U. Pittsburgh](http://bit.ly/2zrVG6s) |
 | Tutorial to make this dashboard  | [Tutorial](tutorials/measles-dashboard.md)              |
+| Plotly.js charts in dashboard    | 3d scatter chart, 2d scatter chart, box plot            |
 
 #### Example observations
 
@@ -44,10 +46,31 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Original dataset                 | [Humanitarian Data Exchange (HDE)](http://bit.ly/2zq86Mh) |
 | Dashboard inspiration            | [Simon B. Johnson](http://bit.ly/2zyztRN)                 |
 | Tutorial to make this dashboard  | [Tutorial](tutorials/aid-agency-dashboard.md)             |
+| Plotly.js charts in dashboard    | Mapbox-gl scatter plot, pie charts, bar chart             |
 
 #### Example observations
 
 - Liberia had the most reported cases and most aid December 10, 2013
 - Only 11 aid organizations were reported in Sierra Leone
 - WHO provided 6 aid activities - Social mobilization, surveillance, coordination, safe burial, psychological support, and logistics
+
 ![ebola-aid](https://github.com/plotly/public-health/raw/master/screencasts/ebola_humanitarian_aid.gif)
+
+## On Duty US Police officer deaths by cause (1986-2005)
+
+| Dashboard Metadata               | Link                                                      |
+| -------------------------------- | --------------------------------------------------------- |
+| Link to dashboard                | https://plot.ly/dashboard/jackp:18052/present             |
+| Dataset on plot.ly               | https://plot.ly/~public.health/17/                        |
+| Original dataset                 | [FiveThirtyEight](http://bit.ly/237YWtv)                  |
+| Dashboard inspiration            | [FiveThirtyEight](http://53eig.ht/2AsMFqG)                 |
+| Tutorial to make this dashboard  | [Tutorial](tutorials/police-report-deaths.md)             |
+| Plotly.js charts in dashboard    | Pie chart, scatter plot, choropleth map                   |
+
+#### Example observations
+
+- After gunfire, the 2nd highest cause of death for on-duty police officers in Alaska is aircraft incidents
+- 14 states have reported on-duty police officer cause of death as "struck by train"
+- Wyoming has the lowest police officer death rate by gunfire
+
+![on-duty-police-officer-deaths](https://github.com/plotly/public-health/raw/master/screencasts/on_duty_policy_deaths.png)
