@@ -9,7 +9,7 @@
 - [Crossfilter Overview](#crossfilter-overview)
 - [California Measles Outbreak](#california-measles-outbreak)
 - [Aid Agencies during Ebola Outbreak](#aid-agencies-during-ebola-outbreak)
-- [U.S. Police officer deaths by cause](#u.s.-police-officer-deaths-by-cause)
+- [U.S. Police officer deaths by cause](#us-police-officer-deaths-by-cause)
 
 ## Crossfilter Overview
 
