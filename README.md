@@ -33,3 +33,4 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - There were smaller outbreaks in 1988 and 1991.
 - Weeks in the springtime had more outbreaks than any other season.
 
+![measles-outbreak](https://github.com/plotly/public-health/raw/master/screencasts/california_measles_outbreaks.gif)
