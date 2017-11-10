@@ -20,7 +20,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 
 ## California Measles Outbreak
 
-| Metadata                         | Link                                       |
+| Dashboard Metadata               | Link                                       |
 | -------------------------------- | ------------------------------------------ |
 | Link to dashboard                | https://plot.ly/dashboard/jackp:18123      |
 | Dataset on plot.ly               | https://plot.ly/~jackp/18114/              |
