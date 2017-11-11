@@ -10,7 +10,7 @@ ___
 
 ## Introduction
 
-In this tutorial, we'll create and style multiple individual plots, of measles cases in California from 1928 to 2004, in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
 
 ## 1. Data
 
