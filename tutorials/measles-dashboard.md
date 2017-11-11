@@ -6,7 +6,20 @@ ___
 
 # California Measles Dashboard
 
-## Introduction
+## Contents
+
+- [Overview](#overview)
+- [Data](#1-data)
+- [Create a Chart](#2-create-a-chart)
+  - [Scatter Plot](#21-scatter-plot)
+  - [Box Plot](#22-box-plot)
+  - [3D Scatter Plot](#23-3d-scatter-plot)
+- [Create a Dashboard](#3-create-a-dashboard)
+  - [Add Charts](#31-add-charts)
+  - [Style It](#32-style-it)
+- [Crossfilter](#4-crossfilter)
+
+## Overview
 
 In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
 
