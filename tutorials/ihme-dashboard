@@ -15,14 +15,14 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 ## 1. Data
 
-To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the measles outbreak dataset from the Project Tycho at University of Pittsburgh.
+To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use data from the IHME in Seattle.
 Simply, copy the URL or click **'Fork & Edit'**. If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL**.
 
 
 
 ## 2. Create a Chart
 
-To visualize measles cases in California between 1928 and 2004, we'll create three individual charts: (1) a scatter plot to illustrate cases per year, (2) a box plot looking at the cases by week of year, and (3) a 3D scatter plot to visualize the week of year versus year versus cases. In this section we'll look at how to make each of the charts.
+To visualize international health metrics, we'll create six individual charts: (1) a choropleth map to illustrate worldwide health life expectancy, (2) a choropleth map to illustrate the prevalence of high risk alcohol consumption, (3) a choropleth map to illustrate daily smoking prevalence, (4) a bubble chart that examines the relationship between overweight prevalence and health life expectancy, (5) a bubble chart that examines the relationship between high risk alcohol consumption and healthy life expectancy, and (6) a bubble chart that examines the relationship between daily smoking prevalence and healthy life expectancy. In this section we'll look at how to make each of the charts.
 
 ### 2.1. Scatter Plot
 
