@@ -12,12 +12,11 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 ## 1. Data
 
-To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the measles outbreak dataset from the Project Tycho at University of Pittsburgh.
-Simply, copy the URL or click **'Fork & Edit'**.
+To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the measles outbreak dataset from the [Project Tycho at University of Pittsburgh](http://bit.ly/2zrVG6s). Simply, copy the URL (https://plot.ly/~jackp/18114.csv) or open the [dataset](https://plot.ly/~jackp/18114/) and click **'Fork & Edit'** to begin.
 
 ![Fork and Edit](../screencasts/measles/scatter/fork-and-edit.png)
 
-If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL**.
+If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL** (https://plot.ly/~jackp/18114.csv).
 
 ![Add Data](../screencasts/measles/scatter/add-data.png)
 
