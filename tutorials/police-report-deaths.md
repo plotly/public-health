@@ -1,7 +1,5 @@
 TODO
 
-- dashboard images
-- dashboard section
 - restructure layout
 - proofread
 ___
@@ -170,12 +168,43 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 With the charts completed and saved in your [home folder](https://plot.ly/organize/home), we can now create a dashboard by simply adding these charts, adjusting the layout, and styling the dashboard before sharing and interacting. To get started with creating a dashboard, hover over the *+Create* button and select **Dashboard** from the menu. Alternatively, open this [link](https://plot.ly/dashboard/create).
 
 ### 3.1. Add Charts
+First, to add the pie chart, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **pie chart** we made earlier.
 
+![Add Pie Chart](../screencasts/police-report/dashboard/add-pie-chart.png)
 
+Next, add the scatter plot immediately below following the same process.
+
+![Add Scatter Plot](../screencasts/police-report/dashboard/add-scatter-plot.png)
+
+Like previously, add the choropleth map following the same process. This time drag and drop the plot on the right half of the scatter plot.
+
+![Add Choropleth](../screencasts/police-report/dashboard/add-choropleth.png)
+
+Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **Death by Cause 1985-2006 (Click on a pie slice to crossfilter)**, **Death by Cause and Date 1985-2006 (Click drag on the scatter points to crossfilter)**, and **Total Deaths per State 1895-2006 (Click-drag on the map to crossfilter)** in the same order as we added the plots. Your result ought to look like below.
+
+![Add Plot Titles](../screencasts/police-report/dashboard/add-plot-title.png)
 
 ### 3.2. Style It
 
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu.
 
+![Settings](../screencasts/police-report/dashboard/settings.png)
+
+After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **On-duty U.S. police officer deaths by cause 1985-2006** to the *Title* text box. Next, let's add the FiveThirtyEight logo. We can do this by simply adding the URL for the logo PNG: **https://cdn0.vox-cdn.com/uploads/chorus_asset/file/6954369/538-logo.0.png**. As previously mentioned you can add links, in this tutorial we'll use this feature to link the original dataset. Thus, add the text **"Original Dataset: FiveThirtyEight"** with the URL: **https://github.com/fivethirtyeight/data/tree/master/police-deaths**.
+
+![Header](../screencasts/police-report/dashboard/header.png)
+
+In the next tab, *Colors*, we can manipulate the background, borders, and text colors. As you can see, the dashboard has already added these by default. That said, for this dashboard we will set *Header Background* to **#222222**, *Header Font Color* to **#FFFFFF**, *Page Background*, *Box Background*, *Box Border*, and *Box Header Background* to **#F0F0F0**. Lastly, enter **#222222** as the *Box Header Font Color*.
+
+![Colors](../screencasts/police-report/dashboard/colors.png)
+
+*Text*, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the *Colors* tab, some values are defined. However, here, we'll set the *Font Family* to **Open Sans**. Set the header font to **1.6em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**. We can leave the remainder as-is.
+
+![Text](../screencasts/police-report/dashboard/text.png)
+
+In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, **enable** both *Search Bar* and the *Crossfilter* feature (for more information about this feature see the next section). Now, like below, you ought to see a search bar and filter dropdown appear under the dashboard header.
+
+![Filter](../screencasts/police-report/dashboard/filter.png)
 
 Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all), or **Private Link** (visible only to those who you share the link with), or **Private** (visible only to you) and hit **Save**. .
 
