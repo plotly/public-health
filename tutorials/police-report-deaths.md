@@ -1,5 +1,9 @@
 TODO
 
+- dashboard images
+- dashboard section
+- restructure layout
+- proofread
 ___
 
 # U.S. Police officer deaths by cause
@@ -39,13 +43,33 @@ Introduction
 ### 2.1. Pie Chart
 
 ##### 2.1.1. Create
+Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Pie Chart** from the *Business* column.
 
+![Chart Type](../screencasts/police-report/pie-chart/chart-type.png)
 
-##### 2.1.3. Traces
+Next, we can populate the graph by selecting **cause** in the *Labels* dropdown. You ought to see a pie chart with a legend like below.
 
+![Trace Values](../screencasts/police-report/pie-chart/trace-values.png)
+
+##### 2.1.2. Traces
+To style the pie chart, we can make changes to the text, colors, borders, and order. To do so, navigate to the *Traces* tab under *Style*. Here, **select Label** and **unselect %**, change the *Font Size* to **11**, set the *Rotation* to **130 degrees**, and *Hole* to **30%**.
+
+![Trace Styles](../screencasts/police-report/pie-chart/trace-styles.png)
 
 ##### 2.1.4. Layout
+To change the background color, click *Layout* under *Style* and set the *Color* to **F0F0F0**.
 
+![Canvas](../screencasts/police-report/pie-chart/canvas.png)
+
+To set the margins, select the *Margins and Padding* box
+and enter the values **20, 20, 0, 0, 0**, respectively.
+
+![Margins](../screencasts/police-report/pie-chart/margins.png)
+
+##### 2.1.4. Legend
+With the styling done and the option to use labels directly on the slices means that the legend on the right-hand side is redundant. Thus, click *Legend* under *Style* and select **Hide**.
+
+![Legend](../screencasts/police-report/pie-chart/legend.png)
 
 ##### 2.1.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
@@ -55,16 +79,41 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.2. Scatter Plot
 
 ##### 2.2.1. Create
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter** from the *Business* column.
 
+![Chart Type](../screencasts/police-report/scatter/chart-type.png)
+
+Now to populate the graph with data, in the *x* and *y* dropdown select **date** and **cause_short**, respectively.
+
+![Trace Values](../screencasts/police-report/scatter/trace-values.png)
 
 ##### 2.2.2. Traces
+With the data plotted, let's style the plot by first changing the scatter ponits color and symbol. Click *Traces*, set the points *Color* to **#222222** and change the *Symbol* to **|** (situated at the bottom of the symbol box).
 
+![Trace Styles](../screencasts/police-report/scatter/trace-styles.png)
 
 ##### 2.2.3. Layout
+Next, navigate to the *Layout* tab to set the background colors, and margins. To complete the former, open the *Canvas* box and set the color, for both plot and margin, to **#F0F0F0**.
 
+![Canvas](../screencasts/police-report/scatter/canvas.png)
+
+To set the margins, select the *Margins and Padding* box
+and enter the values **0, 40, 150, 0, 0**, respectively.
+
+![Margins](../screencasts/police-report/scatter/margins.png)
 
 ##### 2.2.4. Axes
+Moving on the the *Axes* tab, select *Title*. Remove the title under the x axis, then click *y* and in the text editor type **"Causes of Death"**. Leave the *Typeface* as **Open Sans** and *Font Size* as **14**.
 
+![Axes Titles](../screencasts/police-report/scatter/axes-titles.png)
+
+Next, navigate to *Tick Labels*. In the *x* axis, set the *Angle* to **45 degrees** and the *Number of Labels* to **Custom** and **20**.
+
+![Tick Labels](../screencasts/police-report/scatter/tick-labels.png)
+
+Finally, select *Zoom Interactivity* and click **disable**.
+
+![Zoom](../screencasts/police-report/scatter/zoom.png)
 
 ##### 2.2.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
@@ -75,19 +124,41 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.3. Choropleth Map
 
 ##### 2.3.1. Create
+Like the previous charts, once you've added the data, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
+![Chart Type](../screencasts/police-report/choropleth/chart-type.png)
 
-##### 2.3.2. Layout
+Now to populate the graph with data, in the *Locations* and *Values* dropdown select **state** and **cause**, respectively. Additionally, set **USA State Abbreviations** in the *Locations Format* dropdown, **USA** in the *Map Regions*, and set the *Porjections* to **Albers USA**. You ought to note that states aren't defined yet as we need to aggregate the data.
 
+![Trace Values](../screencasts/police-report/choropleth/trace-values.png)
+
+##### 2.3.2. Aggregate
+Thus, under *Graph* click *Aggregate*. Next, click the blue *+ Agreggate* button. In the box that appears, select **state** as the *Group By Column*. Set *Trace* to **cause**, *z* to **count**, and leave *Locations* as **first**. You ought to not see something similar to below.
+
+![Aggregate](../screencasts/police-report/choropleth/aggregate.png)
 
 ##### 2.3.3. Traces
+The blue is hard to decipher, so navigate to the *Traces* tab and set the *Colorscale* to **yellow to purple** (roughly the 8th from the left).
 
+![Trace Styles](../screencasts/police-report/choropleth/trace-styles.png)
 
-##### 2.3.4. Axes
+##### 2.3.4. Layout
+Now that the choropleth is populated and colored, navigate to the *Layout* tab to style the background, margins, and the geo style and layout. First, open the *Canvas* box and set the *Color* to **#F0F0F0**.
 
+![Canvas](../screencasts/police-report/choropleth/canvas.png)
+
+To make the map the full width and height, open *Margins and Paddings* and set all the values to **0**.
+
+![Margins](../screencasts/police-report/choropleth/margins.png)
+
+Unique to choropleth maps, we have *Geo Layout*. Here, you define attributes such as *Map Scope*, *Projection*, *Rotation*, *Scale*, and *Map Resolution*. Set the latter to **1:50,000,000**.
+
+![Geo Layout](../screencasts/police-report/choropleth/geo-layout.png)
 
 ##### 2.3.5. Color Bars
+Finally, you can style the color bar by navigating to *Color Bars*. To minimize the size of the color bar, select the *Size and Positioning* box and set the *Width* to **20**.
 
+![Color Bars Size](../screencasts/police-report/choropleth/color-bar-size.png)
 
 ##### 2.3.6. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
