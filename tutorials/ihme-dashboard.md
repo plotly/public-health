@@ -27,7 +27,7 @@ To visualize international health metrics, we'll create six individual charts: (
 ### 2.1. Healthy Life Expectancy Choropleth Map
 
 ##### 2.1.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter** from the *Business* column.
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
 
 
@@ -64,7 +64,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.2. Alcohol Consumption Choropleth Map
 
 ##### 2.2.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Box Plot** from the *Statistics* column.
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
 
 
@@ -96,7 +96,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.3. Smoking Choropleth Map
 
 ##### 2.3.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **3D Scatter** from the *3D Charts* column.
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
 
 
@@ -134,7 +134,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.4. Overweight Prevalence and Healthy Life Expectancy Bubble Chart
 
 ##### 2.4.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **3D Scatter** from the *3D Charts* column.
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
 
 
@@ -172,8 +172,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.5. Alcohol Consumption and Healthy Life Expectancy Bubble Chart
 
 ##### 2.5.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **3D Scatter** from the *3D Charts* column.
-
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
 
 Like before, to populate the graph with data, select **YEAR**, **WEEK**, and **CALIFORNIA** in the *x*, *y*, and *z* dropdowns. Additionally, like in the scatter plot we made earlier, we want to color this by week. Thus, in the color dropdown select **WEEK**.
@@ -210,8 +209,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.6. Smoking and Healthy Life Expectancy Bubble Chart
 
 ##### 2.6.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **3D Scatter** from the *3D Charts* column.
-
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
 
 Like before, to populate the graph with data, select **YEAR**, **WEEK**, and **CALIFORNIA** in the *x*, *y*, and *z* dropdowns. Additionally, like in the scatter plot we made earlier, we want to color this by week. Thus, in the color dropdown select **WEEK**.
