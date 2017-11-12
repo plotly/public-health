@@ -1,7 +1,5 @@
 TODO
 
-- dashboard section
-- dashboard images
 - restructure layout
 - proofread
 ___
@@ -174,11 +172,47 @@ With the charts completed and saved in your [home folder](https://plot.ly/organi
 
 ### 3.1. Add Charts
 
+First, to add the satellite map, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **satellite map** we made earlier.
 
+![Add Satellite Map](../screencasts/aid-agency/dashboard/add-plot.png)
+
+Next, add the pie chart (activities) following the same process. This time drag and drop the plot on the right half of the satellite map.
+
+![Add Pie Chart Activity](../screencasts/aid-agency/dashboard/add-pie1.png)
+
+Again, follow the same process for pie chart (countries). However, drag and drop pie charts (countries) on the bottom half of pie chart (activities). You ought to see something similar to below.
+
+![Add Pie Chart Country](../screencasts/aid-agency/dashboard/add-pie2.png)
+
+For the final plot, the bar chart, simply add this to the bottom of the dashboard.
+
+![Add Bar Chart](../screencasts/aid-agency/dashboard/add-bar-chart.png)
+
+Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **"Map (darker locations had more relief attention)"**, **Activities**. **Countries**, and **Relief Organization Total Activity Count**, in the same order as we added the plots. Your result ought to look like below.
+
+![Add Plot Titles](../screencasts/aid-agency/dashboard/add-plot-title.png)
 
 ### 3.2. Style It
 
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu.
 
+![Settings](../screencasts/aid-agency/dashboard/settings.png)
+
+After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **"UN Office for the Coordination of Humanitarian Affairs"** to the *Title* text box. Next, let's add the Project Tycho logo. We can do this by simply adding the URL for the logo PNG: **http://www.elrha.org/wp-content/uploads/2015/01/ocha.jpg**. As previously mentioned you can add links, in this tutorial we'll use this feature to link the original dataset. Thus, add the text **"December 10, 2013 Data"** with the URL: **https://data.humdata.org/dataset/3w-dataset-on-the-organizations-involved-in-the-response-to-the-ebola-crisis**.
+
+![Header](../screencasts/aid-agency/dashboard/header.png)
+
+In the next tab, *Colors*, we can manipulate the background, borders, and text colors. As you can see, the dashboard has already added these by default. That said, for this dashboard we will set *Header Background*, *Page Background*, *Box Background*, *Box Border*, and *Box Header Background* to **#FFFFFF**.
+
+![Colors](../screencasts/aid-agency/dashboard/colors.png)
+
+*Text*, the third settings option, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the Colors tab, some values are defined. However, here, we'll set the *Font Family* to **Raleway**. Make the header font larger by selecting **2.2em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**.
+
+![Text](../screencasts/aid-agency/dashboard/text.png)
+
+In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as is but lets enable the *Crossfilter* feature by selecting **enable** (for more information about this feature see the next section).
+
+![Filter](../screencasts/aid-agency/dashboard/filter.png)
 
 Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all), or **Private Link** (visible only to those who you share the link with), or **Private** (visible only to you) and hit **Save**. .
 
