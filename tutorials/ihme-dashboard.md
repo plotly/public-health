@@ -31,7 +31,7 @@ Now that we have the data added to the grid, we can select our chart type. To do
 
 
 
-Now to populate the graph with data, in the *x* and *y* dropdown select **YEAR** and **CALIFORNIA**, respectively. Additionally, we want to color these data by week, thus in the *color* dropdown select **WEEK**. Repeat for *hover text*.
+Now to populate the map with data, in the *Locations* and *Values* dropdown select **Country Code** and **HALE**, respectively. Additionally, for the *Location Format* the **Country Abbreviations (ISO-3)** option should be selected.
 
 
 
@@ -68,7 +68,7 @@ Now that we have the data added to the grid, we can select our chart type. To do
 
 
 
-Like the previous plot we want to populate the graph with data, thus in the *values* and *X Data* dropdown select **CALIFORNIA** and **WEEK**, respectively.
+Like the previous map, to populate it with data: in the *Locations* and *Values* dropdown select **Country Code** and **Drinking**, respectively. Additionally, for the *Location Format* the **Country Abbreviations (ISO-3)** option should be selected.
 
 
 
@@ -100,7 +100,7 @@ Now that we have the data added to the grid, we can select our chart type. To do
 
 
 
-Like before, to populate the graph with data, select **YEAR**, **WEEK**, and **CALIFORNIA** in the *x*, *y*, and *z* dropdowns. Additionally, like in the scatter plot we made earlier, we want to color this by week. Thus, in the color dropdown select **WEEK**.
+Like before, to populate the map with data: in the *Locations* and *Values* dropdown select **Country Code** and **Smoking**, respectively. Additionally, for the *Location Format* the **Country Abbreviations (ISO-3)** option should be selected.
 
 
 
