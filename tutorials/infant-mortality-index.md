@@ -1,6 +1,5 @@
 TODO
 
-- add create a chart text
 - restructure layout
 - proofread
 ___
@@ -37,7 +36,7 @@ If you choose the latter, the Chart Studio ought to have opened and you're all s
 
 ## 2. Create a Chart
 
-Introduction
+To visualize the differences between 1990 and 2015 Infant Mortality Index, we'll create three individual charts: (1) a 1990 infant mortality index choropleth map, (2) 2015 infant mortality index choropleth map, and (3) a 1990 versus 2015 infant mortality index scatter plot for further comparison.
 
 ### 2.1. Choropleth 1990
 
@@ -51,42 +50,39 @@ Now to populate the graph with data, in the *Locations* and *Values* dropdown se
 ![Trace Values](../screencasts/infant-mortality/choropleth1990/trace-values.png)
 
 ##### 2.1.2. Traces
-
-text
+To style, under *Style* click *Traces*. Here, we can change the colorscale by clicking the **blue to yellow** palette (around the 5th from the left). Furthermore, we can define the *Colorscale Range* by selecting **Custom** and setting the *Min Value* and *Max Value* to 0 and 170, respectively.
 
 ![Trace Styles](../screencasts/infant-mortality/choropleth1990/trace-styles.png)
 
 ##### 2.1.3. Layout
-
-text
+Now that the choropleth is populated and colored, navigate to the *Layout* tab, open *Margins and Paddings* and set all the values to **0** to make it full width and height.
 
 ![Margins](../screencasts/infant-mortality/choropleth1990/margins.png)
 
-text
+Unique to choropleth maps, we have *Geo Style* and *Geo Layout*. To alter the former, select *Geo Style* and set *Land* and *Coastline* to **Show** and *Color* **#C8D4E5**; *Oceans* to **Show** and *Color* **#FFFFFF**; *Frame* and *Country* to **Show** and *Color* **#C8D4E5**. Lastly, set *Border Width* to **0** and *Frame Width* to **0.5**.
 
 ![Geo Style](../screencasts/infant-mortality/choropleth1990/geo-style.png)
 
-text
+Next, in *Geo Layout* you can define attributes such as *Map Scope*, *Projection*, *Rotation*, *Scale*, and *Map Resolution*. Set the latter to **1:50,000,000**.
 
 ![Geo Layout](../screencasts/infant-mortality/choropleth1990/geo-layout.png)
 
 ##### 2.1.4. JSON
-
-text
+As you can see from the image above, the line width is quite thick. To make the style lighter, navigate to the *JSON* tab, click *data*, *0*, *marker*, and then *line*. Now, set the *Width* to **0.1**.
 
 ![JSON](../screencasts/infant-mortality/choropleth1990/json.png)
 
 ##### 2.1.5. Color Bars
 
-text
+Finally, you can style the color bar by navigating to *Color Bars*. To minimize the size of the color bar, select the *Size and Positioning* box and set the *Width* to **20**.
 
 ![Color Bar Size](../screencasts/infant-mortality/choropleth1990/color-bar-size.png)
 
-text
+Open *Labels* and set the *Typeface* to **Raleway**.
 
 ![Color Bar Labels](../screencasts/infant-mortality/choropleth1990/color-bar-label.png)
 
-text
+At the bottom, open *Borders and Background* the set the *Border Width* to **0**.
 
 ![Color Bar Borders](../screencasts/infant-mortality/choropleth1990/color-bar-border.png)
 
@@ -102,52 +98,48 @@ Now that we have the data added to the grid, we can select our chart type. To do
 
 ![Chart Type](../screencasts/infant-mortality/choropleth2015/chart-type.png)
 
-Now to populate the graph with data, in the *Locations* and *Values* dropdown select **Country Name** and **1990 [YR 1990]**, respectively. Additionally, set **Country Names** in the *Locations Format* dropdown, **World** in the *Map Regions*, and set the *Porjections* to **Robinson**. You ought to note that states aren't defined yet as we need to aggregate the data.
+Now to populate the graph with data, in the *Locations* and *Values* dropdown select **Country Name** and **2015 [YR 2015]**, respectively. Additionally, set **Country Names** in the *Locations Format* dropdown, **World** in the *Map Regions*, and set the *Porjections* to **Robinson**. You ought to note that states aren't defined yet as we need to aggregate the data.
 
 ![Trace Values](../screencasts/infant-mortality/choropleth2015/trace-values.png)
 
 ##### 2.2.2. Traces
-text
+Following the style from the previous choropleth, click *Traces*. Here, we can change the colorscale by clicking the **blue to yellow** palette (around the 5th from the left). Furthermore, we can define the *Colorscale Range* by selecting **Custom** and setting the *Min Value* and *Max Value* to 0 and 170, respectively
 
 ![Trace Styles](../screencasts/infant-mortality/choropleth2015/trace-styles.png)
 
 ##### 2.2.3. Layout
-
-text
+Now that the choropleth is populated and colored, navigate to the *Layout* tab, open *Margins and Paddings* and set all the values to **0** to make it full width and height.
 
 ![Margins](../screencasts/infant-mortality/choropleth2015/margins.png)
 
-text
+Unique to choropleth maps, we have *Geo Style* and *Geo Layout*. To alter the former, select *Geo Style* and set *Land* and *Coastline* to **Show** and *Color* **#C8D4E5**; *Oceans* to **Show** and *Color* **#FFFFFF**; *Frame* and *Country* to **Show** and *Color* **#C8D4E5**. Lastly, set *Border Width* to **0** and *Frame Width* to **0.5**.
 
 ![Geo Style](../screencasts/infant-mortality/choropleth2015/geo-style.png)
 
-text
+Next, in *Geo Layout* you can define attributes such as *Map Scope*, *Projection*, *Rotation*, *Scale*, and *Map Resolution*. Set the latter to **1:50,000,000**.
 
 ![Geo Layout](../screencasts/infant-mortality/choropleth2015/geo-layout.png)
 
 ##### 2.2.4. JSON
-
-text
+As you can see from the image above, the line width is quite thick. To make the style lighter, navigate to the *JSON* tab, click *data*, *0*, *marker*, and then *line*. Now, set the *Width* to **0.1**.
 
 ![JSON](../screencasts/infant-mortality/choropleth2015/json.png)
 
 ##### 2.2.5. Color Bars
-
-text
+Finally, you can style the color bar by navigating to *Color Bars*. To minimize the size of the color bar, select the *Size and Positioning* box and set the *Width* to **20**.
 
 ![Color Bar Size](../screencasts/infant-mortality/choropleth2015/color-bar-size.png)
 
-text
+Open *Labels* and set the *Typeface* to **Raleway**.
 
 ![Color Bar Labels](../screencasts/infant-mortality/choropleth2015/color-bar-label.png)
 
-text
+At the bottom, open *Borders and Background* the set the *Border Width* to **0**.
 
 ![Color Bar Borders](../screencasts/infant-mortality/choropleth2015/color-bar-border.png)
 
 ##### 2.2.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
-
 
 ![Save](../screencasts/infant-mortality/choropleth2015/save.png)
 
@@ -158,69 +150,67 @@ Now that we have the data added to the grid, we can select our chart type. To do
 
 ![Chart Type](../screencasts/infant-mortality/scatter/chart-type.png)
 
-text
+Now to populate the graph with data, in the *x* and *y* dropdown select **1990 [YR 1990]** and **Country Names**, respectively. Additionally, select **Country Names** in the *hover text* dropdown.
 
 ![Trace Values](../screencasts/infant-mortality/scatter/trace-values1.png)
 
-text
+As we want to plot both 1990 and 2015, click *+ Trace* button and in the new trace box set the *x* and *y* dropdown to **2015 [YR 2015]** and **Country Names**, respectively. Like the previous trace, select **Country Names** in the *hover text* dropdown.
 
 ![Trace Values 2](../screencasts/infant-mortality/scatter/trace-values2.png)
 
 ##### 2.3.2. Traces
 
-text
+With both traces (1990 and 2015) added, we can now style them. Navigate to the *Traces* tab and select *Individual* at the top right-hand side. Open the first trace (the blue one), and set the *Diameter* to **8**. Additionally, change the *Symbol* to **Square** - this will help further define the two traces apart.
 
 ![Trace Styles](../screencasts/infant-mortality/scatter/trace-styles1.png)
 
-text
+Close the first trace and open the second (positioned below). Again, change the *Diameter* but this time set it to **10** and the *Symbol* to a left pointing **Triangle**. Also, switch the *Color* to **#E377C2**.
 
 ![Trace Styles 2](../screencasts/infant-mortality/scatter/trace-styles2.png)
 
 ##### 2.3.3. Layout
-
-text
+Next, navigate to the *Layout* tab, open *Margins and Paddings* and set all the values to **0** to make the scatter plot full width and height.
 
 ![Margins](../screencasts/infant-mortality/scatter/margins.png)
 
 ##### 2.3.4. Axes
-
-text
+Moving on the the *Axes* tab, select *Title*. To remove all titles,  click *all* and remove **MIXED_VALUES**.
 
 ![Axes Titles](../screencasts/infant-mortality/scatter/axes-titles.png)
 
-text
+Now to make changes to the grid and zero lines, open *Lines*. First, click *x* and select **Hide** for all options.
 
 ![Lines X Axis](../screencasts/infant-mortality/scatter/lines-x.png)
 
-text
+Then, click *y* and select **Hide** for *Horizontal Line* and *Zero Line*, but set *Horizontal Grid Lines* as **Show** with *Thickness* **1**.
 
 ![Lines Y Axis](../screencasts/infant-mortality/scatter/lines-y.png)
 
-text
+Staying in the *Axes* tab, navigate to *Tick Labels*, *x*, and set the *Typeface* to **Raleway** and *Font Size* to **14**.
 
 ![Tick Labels X](../screencasts/infant-mortality/scatter/tick-labels-x.png)
 
-text
+For the *y* axis, set *Typeface* to **Raleway** too, but this time set the *Font Size* to **10** to account for the large number of labels on the y axis.
 
 ![Tick Labels Y](../screencasts/infant-mortality/scatter/tick-labels-y.png)
 
-text
+Lastly, for the *Axes*, open *Zoom* and select **disable**.
 
 ![Zoom](../screencasts/infant-mortality/scatter/zoom.png)
 
 ##### 2.3.5. Legend
 
-text
+Instead of using the legend, we'll use custom annotations. Thus, to remove the legend, click *Legend* and **Hide**.
 
 ![Legend](../screencasts/infant-mortality/scatter/legend.png)
 
 ##### 2.3.6. Annotations
 
-text
+To illustrate which trace is which year we can use annotations. To do so, open *Notes* then click *+ Annotation* and **General Annotation**. You ought to see an annotation appear in the middle of the plot. Here, you have the option of editing directly in the plot or by using the annotation box that appeared below the blue *+ Annotation* button. For this tutorial, we'll use the latter method. Thus, set the *Title* to **2015**, *Typeface* to **Raleway**, *Size* to **18**, and the *Color* to **#E377C2**. Now to define the annotation's arrow, set *X Vector* to **70** and *Y Vector* to **0**. To define it's position, enter **0.9** as the *Horizontal Position* and **185** as the *Vertical Position*.
 
 ![2015 Annotation](../screencasts/infant-mortality/scatter/annotation-2015.png)
 
-text
+Too add another annotation, click *+ Annotation* and select **General Annotation**. Using the same method as above, set the *Title* to **1990**, *Typeface* to **Raleway**, *Size* to **18**, and *Arrowhead* to **Square**. Now to define the annotation's arrow, set *X Vector* to **70** and *Y Vector* to **0**. To define it's position, enter **1** as the *Horizontal Position* and **190** as the *Vertical Position*.
 
 ![1990 Annotation](../screencasts/infant-mortality/scatter/annotation-1990.png)
 
