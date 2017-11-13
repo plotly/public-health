@@ -1,5 +1,9 @@
 TODO
 
+- add images
+- add create a chart text
+- restructure layout
+- proofread
 ___
 
 # Comparing 1990 and 2015 Infant Mortality Index
