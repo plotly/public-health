@@ -1,6 +1,5 @@
 TODO
 
-- add images
 - add create a chart text
 - restructure layout
 - proofread
@@ -43,19 +42,53 @@ Introduction
 ### 2.1. Choropleth 1990
 
 ##### 2.1.1. Create
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
+![Chart Type](../screencasts/infant-mortality/choropleth1990/chart-type.png)
 
-##### 2.1.2. Axes
+Now to populate the graph with data, in the *Locations* and *Values* dropdown select **Country Name** and **1990 [YR 1990]**, respectively. Additionally, set **Country Names** in the *Locations Format* dropdown, **World** in the *Map Regions*, and set the *Porjections* to **Robinson**. You ought to note that states aren't defined yet as we need to aggregate the data.
 
+![Trace Values](../screencasts/infant-mortality/choropleth1990/trace-values.png)
 
-##### 2.1.3. Traces
+##### 2.1.2. Traces
 
+text
 
-##### 2.1.4. Layout
+![Trace Styles](../screencasts/infant-mortality/choropleth1990/trace-styles.png)
 
+##### 2.1.3. Layout
+
+text
+
+![Margins](../screencasts/infant-mortality/choropleth1990/margins.png)
+
+text
+
+![Geo Style](../screencasts/infant-mortality/choropleth1990/geo-style.png)
+
+text
+
+![Geo Layout](../screencasts/infant-mortality/choropleth1990/geo-layout.png)
+
+##### 2.1.4. JSON
+
+text
+
+![JSON](../screencasts/infant-mortality/choropleth1990/json.png)
 
 ##### 2.1.5. Color Bars
 
+text
+
+![Color Bar Size](../screencasts/infant-mortality/choropleth1990/color-bar-size.png)
+
+text
+
+![Color Bar Labels](../screencasts/infant-mortality/choropleth1990/color-bar-label.png)
+
+text
+
+![Color Bar Borders](../screencasts/infant-mortality/choropleth1990/color-bar-border.png)
 
 ##### 2.1.6. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
@@ -65,16 +98,52 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.2. Choropleth 2015
 
 ##### 2.2.1. Create
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
+![Chart Type](../screencasts/infant-mortality/choropleth2015/chart-type.png)
+
+Now to populate the graph with data, in the *Locations* and *Values* dropdown select **Country Name** and **1990 [YR 1990]**, respectively. Additionally, set **Country Names** in the *Locations Format* dropdown, **World** in the *Map Regions*, and set the *Porjections* to **Robinson**. You ought to note that states aren't defined yet as we need to aggregate the data.
+
+![Trace Values](../screencasts/infant-mortality/choropleth2015/trace-values.png)
 
 ##### 2.2.2. Traces
+text
 
+![Trace Styles](../screencasts/infant-mortality/choropleth2015/trace-styles.png)
 
 ##### 2.2.3. Layout
 
+text
 
-##### 2.2.4. Axes
+![Margins](../screencasts/infant-mortality/choropleth2015/margins.png)
 
+text
+
+![Geo Style](../screencasts/infant-mortality/choropleth2015/geo-style.png)
+
+text
+
+![Geo Layout](../screencasts/infant-mortality/choropleth2015/geo-layout.png)
+
+##### 2.2.4. JSON
+
+text
+
+![JSON](../screencasts/infant-mortality/choropleth2015/json.png)
+
+##### 2.2.5. Color Bars
+
+text
+
+![Color Bar Size](../screencasts/infant-mortality/choropleth2015/color-bar-size.png)
+
+text
+
+![Color Bar Labels](../screencasts/infant-mortality/choropleth2015/color-bar-label.png)
+
+text
+
+![Color Bar Borders](../screencasts/infant-mortality/choropleth2015/color-bar-border.png)
 
 ##### 2.2.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
@@ -85,18 +154,77 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.3. Scatter Plot
 
 ##### 2.3.1. Create
+Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter** from the *Business* column.
 
+![Chart Type](../screencasts/infant-mortality/scatter/chart-type.png)
 
-##### 2.3.2. Layout
+text
 
+![Trace Values](../screencasts/infant-mortality/scatter/trace-values1.png)
 
-##### 2.3.3. Traces
+text
 
+![Trace Values 2](../screencasts/infant-mortality/scatter/trace-values2.png)
+
+##### 2.3.2. Traces
+
+text
+
+![Trace Styles](../screencasts/infant-mortality/scatter/trace-styles1.png)
+
+text
+
+![Trace Styles 2](../screencasts/infant-mortality/scatter/trace-styles2.png)
+
+##### 2.3.3. Layout
+
+text
+
+![Margins](../screencasts/infant-mortality/scatter/margins.png)
 
 ##### 2.3.4. Axes
 
+text
 
-##### 2.3.5. Save
+![Axes Titles](../screencasts/infant-mortality/scatter/axes-titles.png)
+
+text
+
+![Lines X Axis](../screencasts/infant-mortality/scatter/lines-x.png)
+
+text
+
+![Lines Y Axis](../screencasts/infant-mortality/scatter/lines-y.png)
+
+text
+
+![Tick Labels X](../screencasts/infant-mortality/scatter/tick-labels-x.png)
+
+text
+
+![Tick Labels Y](../screencasts/infant-mortality/scatter/tick-labels-y.png)
+
+text
+
+![Zoom](../screencasts/infant-mortality/scatter/zoom.png)
+
+##### 2.3.5. Legend
+
+text
+
+![Legend](../screencasts/infant-mortality/scatter/legend.png)
+
+##### 2.3.6. Annotations
+
+text
+
+![2015 Annotation](../screencasts/infant-mortality/scatter/annotation-2015.png)
+
+text
+
+![1990 Annotation](../screencasts/infant-mortality/scatter/annotation-1990.png)
+
+##### 2.3.7. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
 
 ![Save](../screencasts/infant-mortality/scatter/save.png)
