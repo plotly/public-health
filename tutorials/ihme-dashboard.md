@@ -31,6 +31,7 @@ Now that we have the data added to the grid, we can select our chart type. To do
 
 Now to populate the map with data, in the *Locations* and *Values* dropdown select **Country Code** and **HALE**, respectively. Additionally, for the *Location Format* the **Country Abbreviations (ISO-3)** option should be selected.
 
+![Create Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.1.1.png)
 
 ##### 2.1.2. Region and Projection
 While we're still in the *Create* tab, we can try out a few different *Map Regions* and *Projections*. Since our data is global, we selected the *Map Region* **World** and *Projection* **Natural Earth**. 
