@@ -70,7 +70,7 @@ Now that we have finished choosing the region and projection, click *Traces* to 
 
 
 ##### 2.2.4. Layout
-Next, navigate to the *Layout* tab to set the margins. Navigate to the *Margins and Padding* box and enter the values **0, 0, 0, 0, 0**, respectively.
+Next, navigate to the *Layout* tab to set the margins. In the *Margins and Padding* box, enter the values **0, 0, 0, 0, 0**, respectively.
 
 
 ##### 2.2.5. Color Bars
@@ -91,15 +91,15 @@ Like before, to populate the map with data: in the *Locations* and *Values* drop
 
 
 ##### 2.3.2. Region and Projection
-While we're still in the *Create* tab, we can try out a few different *Map Regions* and *Projections*. Since our data is global, we selected the *Map Region* **World** and *Projection* **Natural Earth**. 
+As we've seen from earlier maps, you can try out a few different *Map Regions* and *Projections* in the *Create* tab. Since our data is global, we selected the *Map Region* **World** again and *Projection* **Globe (Orthographic)** this time. 
 
 
 ##### 2.3.3. Traces
-Now that we have finished choosing the region and projection, click *Traces* to style your map. There are a host of *Colorscales* to choose from. For this particular map, we chose the second colorscale from the left.
+Now that we have finished choosing the region and projection, click *Traces* to style your map. Try out different *Colorscales* to see which you'd prefer. For this particular map, we chose the fifth colorscale from the left. Next, we set the *Colorscale Range* to *Min Value* **5** and *Max Value* **35**.
 
 
 ##### 2.3.4. Layout
-Next, navigate to the *Layout* tab to set the background colors and margins. Navigate to *Title and Fonts* and chance the **Title** *Font Size* to **20** and **Global Font** *Font Size* to **14**. To set the margins, select the *Margins and Padding* box and enter the values **0, 0, 0, 0, 0**, respectively.
+Once again, navigate to the *Layout* tab to set the margins. In the *Margins and Padding* box, enter the values **0, 0, 0, 0, 0**, respectively.
 
 
 ##### 2.3.5. Color Bars
