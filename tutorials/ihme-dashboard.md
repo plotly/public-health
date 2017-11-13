@@ -18,8 +18,7 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use data from the IHME in Seattle.
 Simply, copy the URL or click **'Fork & Edit'**. If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL**.
 
-![Fork and Edit](../screencasts/infant-mortality/choropleth1990/fork-and-edit.png)
-
+![Fork and Edit](..screencasts/IHME/tut_imag/1.png)
 
 ## 2. Create a Chart
 
