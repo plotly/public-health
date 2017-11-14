@@ -154,7 +154,7 @@ Like before, we will select our chart type first. Select *Graph* on the left-han
 To populate this chart with data, for the *X* axis data select **HALE**, for the *Y* axis data select **Drinking**, for the *Hover Text* option select **Country**, for the *Size* option select **Population**, and for the *Color* option pick **Drinking**.
 
 ##### 2.5.2. Layout
-Before styling the traces we'll first adjust the font size. Hence, navigate to *Layout* under *Style*. Here, open the *Title and Fonts* box and select **14** for the *Global Font* size. For this plot, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **0, 20, 35, 0, 0**, respectively.
+Before styling the traces we'll first adjust the font size. Hence, navigate to *Layout* under *Style*. Here, open the *Title and Fonts* box and select **14** for the *Global Font* size. For this plot, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **10, 20, 35, 0, 0**, respectively.
 
 ##### 2.5.3. Traces
 Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. For this one, we selected the sixth colorscale from the left, **dark purple to beige**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **1** and *Max Value* to **20** and also changed the *Maximum Marker Size* to **60**.
@@ -170,37 +170,25 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.6. Smoking and Healthy Life Expectancy Bubble Chart
 
 ##### 2.6.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
+Once again, select your chart type first. Select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
-
-Like before, to populate the graph with data, select **YEAR**, **WEEK**, and **CALIFORNIA** in the *x*, *y*, and *z* dropdowns. Additionally, like in the scatter plot we made earlier, we want to color this by week. Thus, in the color dropdown select **WEEK**.
-
-
+To populate this chart with data, for the *X* axis data select **HALE**, for the *Y* axis data select **Smoking**, for the *Hover Text* option select **Country**, for the *Size* option select **Population**, and for the *Color* option pick **Smoking**.
 
 ##### 2.6.2. Layout
-Before styling the traces we'll first adjust the layout of the scene. Hence, navigate to *Layout* under *Style*. Here, open the *Scene* box and select **Manual** in the *Aspect Ratio* dropdown. Furthermore, set *x* to **2**. Since we have the layout open, select *Canvas* and set the *Margin Color* to **#F3F5F9**. For this plot, we'll leave the rest of the layout as is.
-
-
+As usual, before styling the traces first adjust the font size. Navigate to *Layout* under *Style*. Open the *Title and Fonts* box and select **14** for the *Global Font* size. Like the previous plots, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **0, 20, 35, 0, 0**, respectively.
 
 ##### 2.6.3. Traces
-Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. To remain consistent with our scatter plot, select **blue to yellow**. Immediately below, click **Show color Bar** to enable color bar visibility. Lastly, change the *Border-Width* to **0.5** and *Border-Color* to **#506784**, which will help define the scatter points.
-
-
+Now that we have finished with styling the layout, click *Traces* to style the scatter points. We'll again select one of the predefined scales. For this one, we selected the fifth colorscale from the left, **blue to yellow**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **5** and *Max Value* to **35** and also changed the *Maximum Marker Size* to **60**.
 
 ##### 2.6.4. Axes
-Navigate to the *Axes* tab to style the axis' title, grid lines, and tick labels. Add **"Year"**, **"Week"**, **"Cases"** as the *x*, *y*, *z* titles, respectively. Additionally, set the *Font Size* to **16** and *Font Color* to **#506784**. To style the grid lines, open the *Lines* box and select *All*. Here, under *All Axes Grid Lines* set *Thickness* to **3** and *Color* to **#FFFFFF**. Under *Zero Line*, set *Thickness* to **2** and *Color* to **#FFFFFF**. Next, alter the color of tick labels by opening the Tick Labels box, select *All*, and set *Color* to **#506784**.
-Lastly, for axes styling, open *Hover Projections*, select *All*, set *Color* to **#D62728** and *Width* to **4**. Now, when hovering you ought to see **#D62728** colored axis lines.
+Now, navigate to the *Axes* tab to style the grid lines and tick labels and change the range. As we did earlier, to style the grid lines, open the *Lines* box and select *X*. Here, press **Hide** for the *Vertical Grid Lines*. Next, navigate to the *Tick Labels* drop down. Here, select *Y* and select **custom** in the *Suffix* box. Then, type the percent (%) symbol in the box, erasing the word **custom**. 
 
+Now, scroll back up to the *Range* box and select *Y*. Change the *Selection* to **Custom Range** and your *Min* to **-1** and *Max* to **37**.
 
+You can also feel free to erase the pre-populated *x* and *y* axis titles, as well as the chart title, at this step. We'll consider these again when we reach the dashboard. 
 
-##### 2.6.5. Color Bars
-Finally, you can style the color bar by navigating to *Color Bars*. For this tutorial, in the *Title* box we enter the title **"Week of year"**, set the *Typeface* to **Raleway**, adjust the *Size* to **14**, and set the *Color* to **#506784**. Now to minimize the size of the color bar, select the *Size and Positioning* box and set the *Height* to **0.9**. In the next box, *Labels*, set the *Typeface* to **Raleway** and the *Font Size* to **14**.
-
-
-
-##### 2.6.6. Save
+##### 2.6.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
-
 
 ## 3. Create a Dashboard
 
