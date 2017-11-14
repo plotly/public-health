@@ -12,6 +12,14 @@ ___
 
 In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
 
+ ## Contents
+ 
+- [Getting Started](## 1. Data)
+- [Designing Choropleth Maps](### 2.1. Healthy Life Expectancy Choropleth Map)
+- [Designing Bubble Charts](### 2.4. Overweight Prevalence and Healthy Life Expectancy Bubble Chart)
+- [Building the Dashboard](## 3. Create a Dashboard)
+- [Using the Crossfilter](## 4. Crossfilter)
+
 ## 1. Data
 
 To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use data from the IHME in Seattle.
