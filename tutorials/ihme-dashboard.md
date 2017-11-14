@@ -62,7 +62,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.2. Alcohol Consumption Choropleth Map
 
 ##### 2.2.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
+As demonstrated earlier, the first step is to select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
 Like the previous map, to populate it with data: in the *Locations* and *Values* dropdown select **Country Code** and **Drinking**, respectively. Additionally, for the *Location Format* the **Country Abbreviations (ISO-3)** option should be selected.
 
@@ -96,7 +96,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ### 2.3. Smoking Choropleth Map
 
 ##### 2.3.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
+First off, let's select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
 
 Like before, to populate the map with data: in the *Locations* and *Values* dropdown select **Country Code** and **Smoking**, respectively. Additionally, for the *Location Format* the **Country Abbreviations (ISO-3)** option should be selected.
 
@@ -127,46 +127,24 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 ![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.3.6.png)
 
-
-
-
-
 ### 2.4. Overweight Prevalence and Healthy Life Expectancy Bubble Chart
 
 ##### 2.4.1. Create
-Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
+As usual, we will select our chart type first. We'll move on from the choropleth maps now to see if we can uncover any relationships in the data. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
-
-
-Like before, to populate the graph with data, select **YEAR**, **WEEK**, and **CALIFORNIA** in the *x*, *y*, and *z* dropdowns. Additionally, like in the scatter plot we made earlier, we want to color this by week. Thus, in the color dropdown select **WEEK**.
-
-
+To populate this chart with data, for the *X* axis data select **HALE**, for the *Y* axis data select **Obesity**, for the *Hover Text* option select **Country**, for the *Size* option select **Population**, and for the *Color* option pick **Obesity**.
 
 ##### 2.4.2. Layout
-Before styling the traces we'll first adjust the layout of the scene. Hence, navigate to *Layout* under *Style*. Here, open the *Scene* box and select **Manual** in the *Aspect Ratio* dropdown. Furthermore, set *x* to **2**. Since we have the layout open, select *Canvas* and set the *Margin Color* to **#F3F5F9**. For this plot, we'll leave the rest of the layout as is.
-
-
+Before styling the traces we'll first adjust the font size. Hence, navigate to *Layout* under *Style*. Here, open the *Title and Fonts* box and select **20** for the *Title* font size and **14** for the *Global Font* size. For this plot, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **0, 20, 35, 0, 0**, respectively.
 
 ##### 2.4.3. Traces
-Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. To remain consistent with our scatter plot, select **blue to yellow**. Immediately below, click **Show color Bar** to enable color bar visibility. Lastly, change the *Border-Width* to **0.5** and *Border-Color* to **#506784**, which will help define the scatter points.
-
-
+Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. For this one, we selected the fourth colorscale from the left, **blue to red**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **0** and *Max Value* to **100** and also changed the *Maximum Marker Size* to **60**.
 
 ##### 2.4.4. Axes
-Navigate to the *Axes* tab to style the axis' title, grid lines, and tick labels. Add **"Year"**, **"Week"**, **"Cases"** as the *x*, *y*, *z* titles, respectively. Additionally, set the *Font Size* to **16** and *Font Color* to **#506784**. To style the grid lines, open the *Lines* box and select *All*. Here, under *All Axes Grid Lines* set *Thickness* to **3** and *Color* to **#FFFFFF**. Under *Zero Line*, set *Thickness* to **2** and *Color* to **#FFFFFF**. Next, alter the color of tick labels by opening the Tick Labels box, select *All*, and set *Color* to **#506784**.
-Lastly, for axes styling, open *Hover Projections*, select *All*, set *Color* to **#D62728** and *Width* to **4**. Now, when hovering you ought to see **#D62728** colored axis lines.
+Navigate to the *Axes* tab to style the grid lines and tick labels. To style the grid lines, open the *Lines* box and select *X*. Here, press **Hide** for the *Vertical Grid Lines*. Next, navigate to the *Tick Labels* drop down. Here, select *Y* and select **custom** in the *Suffix* box. Then, type the percent (%) symbol in the box, erasing the word **custom**.
 
-
-
-##### 2.4.5. Color Bars
-Finally, you can style the color bar by navigating to *Color Bars*. For this tutorial, in the *Title* box we enter the title **"Week of year"**, set the *Typeface* to **Raleway**, adjust the *Size* to **14**, and set the *Color* to **#506784**. Now to minimize the size of the color bar, select the *Size and Positioning* box and set the *Height* to **0.9**. In the next box, *Labels*, set the *Typeface* to **Raleway** and the *Font Size* to **14**.
-
-
-
-##### 2.4.6. Save
+##### 2.4.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
-
-
 
 
 ### 2.5. Alcohol Consumption and Healthy Life Expectancy Bubble Chart
