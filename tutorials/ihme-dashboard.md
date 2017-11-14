@@ -2,7 +2,6 @@ TODO
 
 - dashboard section
 - crossfilter section
-- Add table-of-contents similar to https://github.com/plotly/public-health/blob/master/README.md
 - proofread
 ___
 
