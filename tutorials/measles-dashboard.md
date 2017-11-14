@@ -6,9 +6,10 @@ ___
 
 # California Measles Dashboard
 
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+
 ## Contents
 
-- [Overview](#overview)
 - [Data](#1-data)
 - [Create a Chart](#2-create-a-chart)
   - [Scatter Plot](#21-scatter-plot)
@@ -19,9 +20,6 @@ ___
   - [Style It](#32-style-it)
 - [Crossfilter](#4-crossfilter)
 
-## Overview
-
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
 
 ## 1. Data
 
@@ -246,7 +244,7 @@ In the next tab, *Colors*, we can manipulate the background, borders, and text c
 
 ![Text](../screencasts/measles/dashboard/text.png)
 
-In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as is but lets enable the **Crossfilter** feature by selecting **enable** (for more information about this feature see the next section).
+In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as is but lets enable the *Crossfilter* feature by selecting **enable** (for more information about this feature see the next section).
 
 ![Filter](../screencasts/measles/dashboard/filter.png)
 
@@ -256,4 +254,8 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 
 ## 4. Crossfilter
 
-TODO
+Crossfilter is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **enable** in *Settings* > *Filter*.
+
+To use crossfilter, simply click-and-drag on a chart. Selected data that shares common rows with other charts will highlight and all other data will fade out. To reset the dashboard, click anywhere on a graph that doesn't have data.
+
+![Crossfilter](../screencasts/california_measles_outbreaks.gif)
