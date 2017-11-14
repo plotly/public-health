@@ -1,8 +1,5 @@
 TODO
 
-- add data info / links
-- add dashboard images
-- create a dashboard section
 - restructure layout
 - proofread
 ___
@@ -30,12 +27,12 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 ## 1. Data
 
-To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use a Google Flu Trends dataset from the [Google]().
-Simply, copy the URL (**INSERT**) or open the [dataset]() and click **'Fork & Edit'** to begin.
+To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use a Google Flu Trends dataset from [Google Flu Trends](https://www.google.org/flutrends/about/data/flu/us/data.txt).
+Simply, copy the URL (https://plot.ly/~Dreamshot/9040.csv) or open the [dataset](https://plot.ly/~Dreamshot/9040/) and click **Fork & Edit** to begin.
 
 ![Fork and Edit](../screencasts/google-flu-trends/oklahoma-bar/fork-and-edit.png)
 
-If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL** ().
+If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL** (https://plot.ly/~Dreamshot/9040.csv).
 
 ![Add Data](../screencasts/google-flu-trends/oklahoma-bar/add-data.png)
 
@@ -285,28 +282,19 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 With the charts completed and saved in your [home folder](https://plot.ly/organize/home), we can now create a dashboard by simply adding these charts, adjusting the layout, and styling the dashboard before sharing and interacting. To get started with creating a dashboard, hover over the *+Create* button and select **Dashboard** from the menu. Alternatively, open this [link](https://plot.ly/dashboard/create).
 
 ### 3.1. Add Charts
+Before adding a chart, we'll add a text box to describe the dashboard and its uses. Simply, click the *Text* button, where a text editor ought to appear. In the text editor, add the text you wish to display in the dashboard.
 
-text
+![Add Text](../screencasts/google-flu-trends/dashboard/add-text.png)
+
+Now to add the Oklahoma bar plot, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Oklahoma Bar Plot** we made earlier.
 
 ![Add Oklahoma Bar](../screencasts/google-flu-trends/dashboard/add-plot.png)
 
-text
+Repeat this process to add all the charts in the order they were made.
 
-![Add NY Bar](../screencasts/google-flu-trends/dashboard/add-ny-bar.png)
+![Add All Plots](../screencasts/google-flu-trends/dashboard/add-plot-all.png)
 
-text
-
-![Add US Bar](../screencasts/google-flu-trends/dashboard/add-us-bar.png)
-
-text
-
-![Add Search Box](../screencasts/google-flu-trends/dashboard/add-search-box.png)
-
-text
-
-![Add Search Region Box](../screencasts/google-flu-trends/dashboard/add-search-region-box.png)
-
-text
+Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **Flu Search Volume in Oklahoma**, **Flu Search Volume in New York**, and **Flu Search Volume in United States**, **Flu Search Boxplot** twice, in the same order as we added the plots. Your result ought to look like below.
 
 ![Add Plot Titles](../screencasts/google-flu-trends/dashboard/add-plot-title.png)
 
@@ -316,15 +304,15 @@ Now that we have the structure of our dashboard, we can style it. To do so, navi
 
 ![Settings](../screencasts/google-flu-trends/dashboard/settings.png)
 
-text
+After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Flu Trends** to the *Title* text box. Next, let's add the Google logo. We can do this by simply adding the URL for the logo PNG: **http://diylogodesigns.com/blog/wp-content/uploads/2016/04/new-google-logo-png.png**.
 
 ![Header](../screencasts/google-flu-trends/dashboard/header.png)
 
-text
+In the next tab, *Colors*, we can manipulate the background, borders, and text colors. As you can see, the dashboard has already added these by default. That said, for this dashboard we will set *Header Background*, *Page Background*, *Box Background*, *Box Border*, and *Box Header Background* to **#F3F6FA**. Leave *Header Font Color* as-is.
 
 ![Colors](../screencasts/google-flu-trends/dashboard/colors.png)
 
-text
+*Text*, the third settings option, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the Colors tab, some values are defined. However, here, we'll set the *Font Family* to **Raleway**. Make the header font larger by selecting **2.2em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**. Lastly, to separate the text box, set the *Text Box Background Color* to **#F3F6FA**.
 
 ![Text](../screencasts/google-flu-trends/dashboard/text.png)
 
