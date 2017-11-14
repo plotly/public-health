@@ -14,7 +14,7 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
  ## Contents
  
-- [Getting Started](## 1. Data)
+- [Getting Started](##1.-Data)
 - [Designing Choropleth Maps](### 2.1. Healthy Life Expectancy Choropleth Map)
 - [Designing Bubble Charts](### 2.4. Overweight Prevalence and Healthy Life Expectancy Bubble Chart)
 - [Building the Dashboard](## 3. Create a Dashboard)
