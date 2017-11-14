@@ -132,40 +132,60 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ##### 2.4.1. Create
 As usual, we will select our chart type first. We'll move on from the choropleth maps now to see if we can uncover any relationships in the data. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
+![Create Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.4.1.png)
+
 To populate this chart with data, for the *X* axis data select **HALE**, for the *Y* axis data select **Obesity**, for the *Hover Text* option select **Country**, for the *Size* option select **Population**, and for the *Color* option pick **Obesity**.
 
 ##### 2.4.2. Layout
 Before styling the traces we'll first adjust the font size. Hence, navigate to *Layout* under *Style*. Here, open the *Title and Fonts* box and select **20** for the *Title* font size and **14** for the *Global Font* size. For this plot, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **0, 20, 35, 0, 0**, respectively.
 
+![Select Layout](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.4.2.png)
+
 ##### 2.4.3. Traces
 Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. For this one, we selected the fourth colorscale from the left, **blue to red**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **0** and *Max Value* to **100** and also changed the *Maximum Marker Size* to **60**.
+
+![Choose Colorscale](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.4.3.png)
 
 ##### 2.4.4. Axes
 Navigate to the *Axes* tab to style the grid lines and tick labels. To style the grid lines, open the *Lines* box and select *X*. Here, press **Hide** for the *Vertical Grid Lines*. Next, navigate to the *Tick Labels* drop down. Here, select *Y* and select **custom** in the *Suffix* box. Then, type the percent (%) symbol in the box, erasing the word **custom**.
 
+![Set Axes](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.4.4.png)
+
 ##### 2.4.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
+
+![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.4.5.png)
 
 ### 2.5. Alcohol Consumption and Healthy Life Expectancy Bubble Chart
 
 ##### 2.5.1. Create
 Like before, we will select our chart type first. Select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter plot** from the *Business* column.
 
+![Create Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.5.1.png)
+
 To populate this chart with data, for the *X* axis data select **HALE**, for the *Y* axis data select **Drinking**, for the *Hover Text* option select **Country**, for the *Size* option select **Population**, and for the *Color* option pick **Drinking**.
 
 ##### 2.5.2. Layout
 Before styling the traces we'll first adjust the font size. Hence, navigate to *Layout* under *Style*. Here, open the *Title and Fonts* box and select **14** for the *Global Font* size. For this plot, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **10, 20, 35, 0, 0**, respectively.
 
+![Select Layout](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.5.2.png)
+
 ##### 2.5.3. Traces
 Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. For this one, we selected the sixth colorscale from the left, **dark purple to beige**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **1** and *Max Value* to **20** and also changed the *Maximum Marker Size* to **60**.
+
+![Choose Colorscale](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.5.3.png)
 
 ##### 2.5.4. Axes
 Navigate to the *Axes* tab to style the grid lines and tick labels. To style the grid lines, open the *Lines* box and select *X*. Here, press **Hide** for the *Vertical Grid Lines*. Next, navigate to the *Tick Labels* drop down. Here, select *Y* and select **custom** in the *Suffix* box. Then, type the percent (%) symbol in the box, erasing the word **custom**. 
 
 You can also feel free to erase the pre-populated *x* and *y* axis titles, as well as the chart title, at this step. We'll consider these again when we reach the dashboard. 
 
+![Set Axes](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.5.4.png)
+
 ##### 2.5.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
+
+![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.5.5.png)
 
 ### 2.6. Smoking and Healthy Life Expectancy Bubble Chart
 
@@ -174,11 +194,17 @@ Once again, select your chart type first. Select *Graph* on the left-hand side, 
 
 To populate this chart with data, for the *X* axis data select **HALE**, for the *Y* axis data select **Smoking**, for the *Hover Text* option select **Country**, for the *Size* option select **Population**, and for the *Color* option pick **Smoking**.
 
+![Create Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.6.1.png)
+
 ##### 2.6.2. Layout
 As usual, before styling the traces first adjust the font size. Navigate to *Layout* under *Style*. Open the *Title and Fonts* box and select **14** for the *Global Font* size. Like the previous plots, we'll leave the rest of the layout as is. Now, in the *Margins and Padding* box, enter the values **0, 20, 35, 0, 0**, respectively.
 
+![Select Layout](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.6.2.png)
+
 ##### 2.6.3. Traces
 Now that we have finished with styling the layout, click *Traces* to style the scatter points. We'll again select one of the predefined scales. For this one, we selected the fifth colorscale from the left, **blue to yellow**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **5** and *Max Value* to **35** and also changed the *Maximum Marker Size* to **60**.
+
+![Choose Colorscale](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.6.3.png)
 
 ##### 2.6.4. Axes
 Now, navigate to the *Axes* tab to style the grid lines and tick labels and change the range. As we did earlier, to style the grid lines, open the *Lines* box and select *X*. Here, press **Hide** for the *Vertical Grid Lines*. Next, navigate to the *Tick Labels* drop down. Here, select *Y* and select **custom** in the *Suffix* box. Then, type the percent (%) symbol in the box, erasing the word **custom**. 
@@ -187,8 +213,12 @@ Now, scroll back up to the *Range* box and select *Y*. Change the *Selection* to
 
 You can also feel free to erase the pre-populated *x* and *y* axis titles, as well as the chart title, at this step. We'll consider these again when we reach the dashboard. 
 
+![Set Axes](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.6.4.png)
+
 ##### 2.6.5. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
+
+![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/2.6.5.png)
 
 ## 3. Create a Dashboard
 
