@@ -1,7 +1,6 @@
 TODO
 
-- bubble chart tutorials (3x)
-- bubble chart images 
+- dashboard section
 - crossfilter section
 - Add table-of-contents similar to https://github.com/plotly/public-health/blob/master/README.md
 - proofread
