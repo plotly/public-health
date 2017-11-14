@@ -6,9 +6,10 @@ ___
 
 # Aid Agencies during Ebola Outbreak
 
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+
 ## Contents
 
-- [Overview](#overview)
 - [Data](#1-data)
 - [Create a Chart](#2-create-a-chart)
   - [Satellite Map](#21-satellite-map)
@@ -20,9 +21,6 @@ ___
   - [Style It](#32-style-it)
 - [Crossfilter](#4-crossfilter)
 
-## Overview
-
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
 
 ## 1. Data
 
@@ -220,4 +218,8 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 
 ## 4. Crossfilter
 
-TODO
+Crossfilter is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **enable** in *Settings* > *Filter*.
+
+To use crossfilter, simply click-and-drag on a chart. Selected data that shares common rows with other charts will highlight and all other data will fade out. To reset the dashboard, click anywhere on a graph that doesn't have data.
+
+![Crossfilter](../screencasts/ebola_humanitarian_aid.gif)
