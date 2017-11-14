@@ -9,7 +9,7 @@ ___
 
 ## Introduction
 
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore health indicators on a global scale. The data comes from the Institute for Health Metrics and Evaluation (IHME), which is based in Seattle, Washington, USA.
 
  ## Contents
  
