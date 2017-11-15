@@ -245,19 +245,23 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 With the charts completed and saved in your [home folder](https://plot.ly/organize/home), we can now create a dashboard by simply adding these charts, adjusting the layout, and styling the dashboard before sharing and interacting. To get started with creating a dashboard, hover over the *+Create* button and select **Dashboard** from the menu. Alternatively, open this [link](https://plot.ly/dashboard/create).
 
-### 3.1. Add Charts
+![Create Dashboard](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.png)
+
+### 3.1. Add Text
 
 Before adding a chart, we'll add a text box to describe the dashboard and its uses. Simply, click the *Text* button, where a text editor ought to appear. In the text editor, add the text you wish to display in the dashboard.
 
+![Add Text](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.1.png)
 
+### 3.2. Add Charts
 
-Now to add the scatter plot, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **scatter plot** we made earlier. Now, you ought to see the plot added to your dashboard. Next, in the top left corner of the box where it says, "Enter a title..." insert **"California measles cases, colored by week of year"**.
+Now to add your choropleth maps and bubble charts, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select one of the **choropleth maps** we made earlier. Now, you ought to see the plot added to your dashboard. Next, in the top left corner of the box where it says, "Enter a title..." insert **"Healthy Life Expectancy"**.
 
+![Add Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.png)
 
+Repeat the process for the remainder of the choropleth maps and bubble charts we made earlier, titling each accordingly and placing the choropleth map next to a bubble chart for a clean look.
 
-Repeat the process for the boxplot and 3D scatter plot we made earlier, but title them **"California measles cases by week of year"** and **"California measles cases: Week of year versus Year versus Cases"**, respectively.
-
-
+![Repeat Process](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.1.png)
 
 ### 3.2. Style It
 
