@@ -1,10 +1,3 @@
-TODO
-
-- dashboard section
-- crossfilter section
-- proofread
-___
-
 # Institute for Health Metrics and Evaluation (IHME) Dashboard
 
 ## Introduction
@@ -263,7 +256,7 @@ Repeat the process for the remainder of the choropleth maps and bubble charts we
 
 ![Repeat Process](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.3.png)
 
-### 3.2. Style It
+### 3.3. Style It
 
 Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you'll see the option settings from the menu. After clicking *settings*, a panel will appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter.
 
