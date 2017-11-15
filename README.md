@@ -10,6 +10,8 @@
 - [California Measles Outbreak](#california-measles-outbreak)
 - [Aid Agencies during Ebola Outbreak](#aid-agencies-during-ebola-outbreak)
 - [U.S. Police officer deaths by cause](#us-police-officer-deaths-by-cause)
+- [IHME Global Health Indicators](#ihme-global-health-indicators)
+- [Google Flu Trends](#google-flu-trends)
 
 ## Crossfilter Overview
 
@@ -91,3 +93,37 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - IMI improved in every country except Dominca between 1990 and 2005
 
 ![infant-mortality-index](https://github.com/plotly/public-health/raw/master/screencasts/infant_mortality_index.png)
+
+## IHME Global Health Indicators
+
+| Dashboard Metadata               | Link                                                      |
+| -------------------------------- | --------------------------------------------------------- |
+| Link to dashboard                | https://plot.ly/dashboard/Dreamshot:8925/present          |
+| Dataset on plot.ly               | https://plot.ly/~Dreamshot/8914/                          |
+| Original dataset                 | [IHME Viz Hub](https://vizhub.healthdata.org/gbd-compare/)|
+| Dashboard inspiration            | [IHME Viz Hub](https://vizhub.healthdata.org/gbd-compare/)|
+| Tutorial to make this dashboard  | [Tutorial](tutorials/ihme-dashboard.md)                   |
+| Plotly.js charts in dashboard    | Choropleth maps, bubble charts                            |
+
+#### Example observations
+
+- This dashboard is mainly to show crossfilter with a variety of map projections.
+
+![IHME](https://github.com/plotly/public-health/raw/master/screencasts/IHME_crossfilter_gif.gif)
+
+## Google Flu Trends
+
+| Dashboard Metadata               | Link                                                      |
+| -------------------------------- | --------------------------------------------------------- |
+| Link to dashboard                | https://plot.ly/dashboard/Dreamshot:9045/present          |
+| Dataset on plot.ly               | https://plot.ly/~Dreamshot/9040/                          |
+| Original dataset                 | [US Google Flu Trends CSV](http://bit.ly/2yEtQQU)         |
+| Dashboard inspiration            | [Flu Trends Public Data Explorer](http://bit.ly/2AGrm56)  |
+| Tutorial to make this dashboard  | [Tutorial](tutorials/google-flu-trends.md)                |
+| Plotly.js charts in dashboard    | Time series, histograms, box plots                        |
+
+#### Example observations
+
+- This dashboard is mainly to show crossfilter of distribution plots (box plots and histograms) together with time series.
+
+![google-flu-trends](https://github.com/plotly/public-health/raw/master/screencasts/Google_Flu_Trends.png)
