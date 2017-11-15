@@ -293,7 +293,12 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 
 ![Dashboard Final](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME_crossfilter_gif.gif)
 
-
 ## 4. Crossfilter
 
-TODO
+Finally, we'll briefly demonstate crossfilter. 
+
+**Crossfilter** is a visual analysis technique for multidimensional data that can help clarify correlations between dimensions.
+
+To use crossfilter, simply click-and-drag on any of the charts and maps in the dashboard you just created. Data sharing common rows between the charts will highlight in red, helping pinpoint complex relationships between various health indicators and location on the globe.
+
+![Dashboard Final](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME_crossfilter_gif.gif)
