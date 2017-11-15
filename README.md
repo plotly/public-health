@@ -12,6 +12,7 @@
 - [U.S. Police officer deaths by cause](#us-police-officer-deaths-by-cause)
 - [IHME Global Health Indicators](#ihme-global-health-indicators)
 - [Google Flu Trends](#google-flu-trends)
+- [Ebola Outbreaks 1976-2013](#ebola-outbreaks-1976-2013)
 
 ## Crossfilter Overview
 
@@ -37,7 +38,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - There were smaller outbreaks in 1988 and 1991.
 - Weeks in the springtime had more outbreaks than any other season.
 
-![measles-outbreak](https://github.com/plotly/public-health/raw/master/screencasts/california_measles_outbreaks.gif)
+![measles-outbreak-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/california_measles_outbreaks.gif)
 
 ## Aid Agencies during Ebola Outbreak
 
@@ -56,7 +57,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - Only 11 aid organizations were reported in Sierra Leone
 - WHO provided 6 aid activities - Social mobilization, surveillance, coordination, safe burial, psychological support, and logistics
 
-![ebola-aid](https://github.com/plotly/public-health/raw/master/screencasts/ebola_humanitarian_aid.gif)
+![ebola-aid-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/ebola_humanitarian_aid.gif)
 
 ## U.S. Police officer deaths by cause
 
@@ -75,7 +76,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - 14 states have reported on-duty police officer cause of death as "struck by train"
 - Wyoming has the lowest police officer death rate by gunfire
 
-![on-duty-police-officer-deaths](https://github.com/plotly/public-health/raw/master/screencasts/on_duty_policy_deaths.png)
+![police-officer-deaths-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/on_duty_policy_deaths.png)
 
 ## Comparing 1990 and 2015 Infant Mortality Index
 
@@ -92,7 +93,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 
 - IMI improved in every country except Dominca between 1990 and 2005
 
-![infant-mortality-index](https://github.com/plotly/public-health/raw/master/screencasts/infant_mortality_index.png)
+![infant-mortality-index-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/infant_mortality_index.png)
 
 ## IHME Global Health Indicators
 
@@ -109,7 +110,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 
 - This dashboard is mainly to show crossfilter with a variety of map projections.
 
-![IHME](https://github.com/plotly/public-health/raw/master/screencasts/IHME_crossfilter_gif.gif)
+![IHME-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/IHME_crossfilter_gif.gif)
 
 ## Google Flu Trends
 
@@ -126,4 +127,21 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 
 - This dashboard is mainly to show crossfilter of distribution plots (box plots and histograms) together with time series.
 
-![google-flu-trends](https://github.com/plotly/public-health/raw/master/screencasts/Google_Flu_Trends.png)
+![google-flu-trends-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/Google_Flu_Trends.png)
+
+## Ebola Outbreaks 1976-2013
+
+| Dashboard Metadata               | Link                                                      |
+| -------------------------------- | --------------------------------------------------------- |
+| Link to dashboard                | https://plot.ly/dashboard/jackp:17876/present             |
+| Dataset on plot.ly               | https://plot.ly/~public.health/8                          |
+| Original dataset                 | [Nature: Science Direct](http://go.nature.com/2zKJN9u)    |
+| Dashboard inspiration            | [Nature: Science Direct](http://go.nature.com/2zKJN9u)    |
+| Tutorial to make this dashboard  | TODO                                                      |
+| Plotly.js charts in dashboard    | Time series, D3 map with hover text, SVG table            |
+
+#### Example observations
+
+- This dashboard is mainly to show using crossfilter with tables.
+
+![ebola-outbreak-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/ebola_outbreak.png)
