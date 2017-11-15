@@ -160,12 +160,12 @@ Navigate to the *Axes* tab to style the grid lines and tick labels. To style the
 ##### 2.4.5. Color Bars
 Now, we'll enable the colorbar. Head to *Color Bars* and **Show** the *Color Bar* in the menu. Open the *Size and Positioning* menu and adjust the width to **10**.
 
-![Color Bar](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.4.4.1png)
+![Color Bar](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_3/2.4.4.1png)
 
 ##### 2.4.6. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
 
-![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.4.6.png)
+![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_3/2.4.6.png)
 
 ### 2.5. Alcohol Consumption and Healthy Life Expectancy Bubble Chart
 
@@ -196,12 +196,12 @@ You can also feel free to erase the pre-populated *x* and *y* axis titles, as we
 ##### 2.5.5. Color Bars
 Now, we'll enable the colorbar. Head to *Color Bars* and **Show** the *Color Bar* in the menu. Open the *Size and Positioning* menu and adjust the width to **10**.
 
-![Color Bar](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.5.4.1png)
+![Color Bar](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_3/2.5.4.1png)
 
 ##### 2.5.6. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
 
-![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.5.6.png)
+![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_3/2.5.6.png)
 
 ### 2.6. Smoking and Healthy Life Expectancy Bubble Chart
 
@@ -234,12 +234,12 @@ You can also feel free to erase the pre-populated *x* and *y* axis titles, as we
 ##### 2.6.5. Color Bars
 Before we finish, we'll enable the colorbar. Head to *Color Bars* and **Show** the *Color Bar* in the menu. Now, open the *Size and Positioning* menu and adjust the width to **10**.
 
-![Color Bar](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.6.4.1png)
+![Color Bar](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_3/2.6.4.1png)
 
 ##### 2.6.6. Save
 Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
 
-![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.6.6.png)
+![Finished Chart](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_3/2.6.6.png)
 
 ## 3. Create a Dashboard
 
