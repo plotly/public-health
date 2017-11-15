@@ -261,31 +261,38 @@ Now to add your choropleth maps and bubble charts, click *+Plot* in the bottom l
 
 Repeat the process for the remainder of the choropleth maps and bubble charts we made earlier, titling each accordingly and placing the choropleth map next to a bubble chart for a clean look.
 
-![Repeat Process](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.1.png)
+![Repeat Process](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.3.png)
 
 ### 3.2. Style It
 
-Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu. After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter.
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you'll see the option settings from the menu. After clicking *settings*, a panel will appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter.
 
+![Dashboard Options](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.png)
 
+In *Headers*, call the *Title* **Institute for Health Metrics and Evaluation**, set the *Logo URL* as **https://upload.wikimedia.org/wikipedia/en/a/ab/Institute_for_Health_Metrics_and_Evaluation_logo_sm.jpg**, and in the *Links* box type **IHME**.
 
-First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **"Measles Cases in California 1928-2004"** to the *Title* text box. Next, let's add the Project Tycho logo. We can do this by simply adding the URL for the logo PNG: **https://www.tycho.pitt.edu/images/web3.png**. As previously mentioned you can add links, in this tutorial we'll use this feature to link the original dataset. Thus, add the text **"Data Source: Project Tycho Level 1 data"** with the URL: **https://www.tycho.pitt.edu/data/level1.php**.
+![Dashboard Headers](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.1.png)
 
+In *Colors*, set the *Header Background* as **#FFFFFF**, the *Header Font Color* as **#506784**, the *Page Background* as **#B4F582**, the *Box Background*, *Box Border*, and *Box Header Background* as **#FFFFFF**, and *Box Header Font Color* as **#506784**.
 
+![Dashboard Colors](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.2.png)
 
-In the next tab, *Colors*, we can manipulate the background, borders, and text colors. As you can see, the dashboard has already added these by default. Thus, for this tutorial, we'll leave them as is.
+In *Text*, set the *Font Color* as **#506784**, the *Font Family* as **Raleway**, the *Header Font Size* as **1.6em**, the *Header Font Weight* as **400**, the *Text Box Font Size* as **1.6rem**, and the *Text Box Background Color* and *Text Box Font Color* as **#FFFFFF**.
 
+![Dashboard Text](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.3.png)
 
+In *Layout*, set the *Page Layout* to **Dashboard**.
 
-*Text*, the third settings option, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the Colors tab, some values are defined. However, here, we'll set the *Font Family* to **Raleway**. Make the header font larger by selecting **2.2em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**. Lastly, to separate the text box, set the *Text Box Background Color* to **#FFFFFF**.
+![Dashboard Layout](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.4.png)
 
+In *Filter*, set the *Search Bar* to **Hide** and *Crossfilter* to **Enable**
 
+![Dashboard Filter](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.5.png)
 
-In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as is but lets enable the **Crossfilter** feature by selecting **enable** (for more information about this feature see the next section).
+Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all), or **Private Link** (visible only to those who you share the link with), or **Private** (visible only to you) and hit **Save**.
 
+![Dashboard Final](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.1.png)
 
-
-Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all), or **Private Link** (visible only to those who you share the link with), or **Private** (visible only to you) and hit **Save**. .
 
 ## 4. Crossfilter
 
