@@ -291,7 +291,7 @@ In *Filter*, set the *Search Bar* to **Hide** and *Crossfilter* to **Enable**
 
 Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all), or **Private Link** (visible only to those who you share the link with), or **Private** (visible only to you) and hit **Save**.
 
-![Dashboard Final](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.2.1.png)
+![Dashboard Final](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME_crossfilter_gif.gif)
 
 
 ## 4. Crossfilter
