@@ -1,11 +1,5 @@
-TODO
-
-- add gif to bottom
-- proofread
-___
-
 # Ebola Outbreaks 1976-2013
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter feature to interact and explore these data further.
 
 ## Contents
 
@@ -22,19 +16,19 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 ## 1. Data
 
-To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the Ebola Outbreak dataset from [Nature: Science Direct](http://go.nature.com/2zKJN9u). Simply, copy the URL (https://plot.ly/~public.health/8.csv) or open the [dataset](https://plot.ly/~public.health/8) and click **'Fork & Edit'** to begin.
+To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the Ebola Outbreak dataset from [Nature: Science Direct](http://go.nature.com/2zKJN9u). To begin, simply view the [dataset](https://plot.ly/~public.health/8) and click **'Fork & Edit'** to begin. The Chart Studio ought to open and you're all set to go.
 
 ![Fork and Edit](../screencasts/ebola-outbreaks/atlas/fork-and-edit.png)
 
-If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL** (https://plot.ly/~public.health/8.csv).
+Alternatively, navigate to the [Chart Studio](https://plot.ly/create/) and click **Import**, **By URL**, and then paste in the **URL** (https://plot.ly/~public.health/8.csv).
 
 ![Add Data](../screencasts/ebola-outbreaks/atlas/add-data.png)
 
 ## 2. Create a Chart
 
-To visualize Ebola outbreaks from 1973 to 2013, we'll create three individual charts: (1) an outbreak location atlas chart, (2) a scatter plot looking at deaths per outbreak, and (3) a table to display all outbreak data. In the section below, we'll look at how to make each of the charts.
+To visualize Ebola outbreaks from 1973 to 2013, we'll create three individual charts: (1) an outbreak location atlas map, (2) a scatter plot looking at deaths per outbreak, and (3) a table to display all outbreak data. In the section below, we'll look at how to make each of the charts.
 
-### 2.1. Outbreak Location Atlas
+### 2.1. Outbreak Location Map
 
 ##### 2.1.1. Create
 Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Atlas Maps** from the *Maps* column.
@@ -46,7 +40,7 @@ Now to populate the graph with data, in the *Latitude* and *Longitude* dropdown 
 ![Trace Values](../screencasts/ebola-outbreaks/atlas/trace-values.png)
 
 ##### 2.1.2. Traces
-With our trace values entered, next, open *Traces* to begin styling the plot. First, set the *Colorscale* to **Pink/Green** (roughly the 9th from the left), and the select **Reversed** and **Show Color Bar**. Moving on to style the points, alter the *Diameter* to **5**, *Border Width* to **0.5**, and set the *Border-Color* to **#FFFFFF**. Your data points ought to look similar to the ones below.
+With our trace values entered, next, open *Traces* to begin styling the plot. First, set the *Colorscale* to **Pink/Green** (roughly the 9th from the left), and the select **Reversed** and **Show Color Bar**. Moving on to style the points, alter the *Diameter* to **5**, *Border Width* to **0.5**, and set the *Border-Color* to **#FFFFFF**. Your data points ought to look like the ones below.
 
 ![Trace Styles](../screencasts/ebola-outbreaks/atlas/trace-styles.png)
 
@@ -63,7 +57,7 @@ To make the atlas map full width and height, open *Margins and Paddings* and set
 
 ![Margins](../screencasts/ebola-outbreaks/atlas/margins.png)
 
-In atlas maps, we have *Geo Style* and *Geo Layout*. To alter the former, select *Geo Style* and set *Land* to **Show** and *Color* **#222222**; *Coastlines* to **Show**, **1**, and **#444444**; *Oceans* to **Show** and **#FFFFFF**; *Country* to **Show**, **0.2**, **#A2B1C6**. Now, you ought to see substanial changes to the map style.
+In atlas maps, we have *Geo Style* and *Geo Layout*. To alter the former, select *Geo Style* and set *Land* to **Show** and *Color* **#222222**; *Coastlines* to **Show**, **1**, and **#444444**; *Oceans* to **Show** and **#FFFFFF**; *Country* to **Show**, **0.2**, **#A2B1C6**. Now, you ought to see substantial changes to the map style.
 
 ![Geo Style](../screencasts/ebola-outbreaks/atlas/geo-style.png)
 
@@ -86,6 +80,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ![Save](../screencasts/ebola-outbreaks/atlas/save.png)
 
 ### 2.2. Deaths Per Outbreak Scatter Plot
+Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.2.1. Create
 Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter** from the *Business* column.
@@ -97,7 +92,7 @@ Now to populate the graph with data, in the *x* and *y* dropdown select **PLOTLY
 ![Trace Values](../screencasts/ebola-outbreaks/scatter/trace-values.png)
 
 ##### 2.2.2. Traces
-Now that we have a graph with data we can style it. Thus, navigate to *Traces* and set the *Colorscale* to **Greyscale** and **Reversed**. Further below, set the *Diameter* to **10** to make the data points larger and then set Border Width to **2**, which will define the lighter colored markers.
+Now that we have a graph with data we can style it. Thus, navigate to *Traces* and set the *Colorscale* to **Greyscale** and **Reversed**. Further below, set the *Diameter* to **10** to make the data points larger and then set Border Width to **2**, which will help define the lighter colored markers.
 
 ![Trace Styles](../screencasts/ebola-outbreaks/scatter/trace-styles.png)
 
@@ -116,6 +111,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ![Save](../screencasts/ebola-outbreaks/scatter/save.png)
 
 ### 2.3. Ebola Outbreak Table
+Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.3.1. Create
 Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Table** from the *Statistics* column.
@@ -127,18 +123,17 @@ Now to populate the table with data, we need to define the *Header Values* and *
 ![Trace Values](../screencasts/ebola-outbreaks/table/trace-values.png)
 
 ##### 2.3.2. Traces
-To style tables, it is broken in to two sections: *Header* and *Cells*. For the *Header*, set the *Typeface* to **Raleway**, *Font Color* to **#FFFFFF**, and the *Border Color* to **#C8D4E3**. For the *Cells*, set the *Fill Color* to **#F2F5FA**, *Cell Height* to **28**, and the *Border Color* the same as the *Header*.
+To style tables, it is divided into two sections: *Header* and *Cells*. For the *Header*, set the *Typeface* to **Raleway**, *Font Color* to **#FFFFFF**, and the *Border Color* to **#C8D4E3**. For the *Cells*, set the *Fill Color* to **#F2F5FA**, *Cell Height* to **28**, and the *Border Color* the same as the *Header*.
 
 ![Trace Styles](../screencasts/ebola-outbreaks/table/trace-styles.png)
 
 ##### 2.3.3. Layout
-
 Finally, navigate to the *Layout* tab, open *Margins and Paddings* and set all the values to **0** to make the table the full width and height.
 
 ![Margins](../screencasts/ebola-outbreaks/table/margins.png)
 
 ##### 2.3.4. Save
-Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
+Congrats, your table is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private.
 
 ![Save](../screencasts/ebola-outbreaks/table/save.png)
 
@@ -148,11 +143,11 @@ With the charts completed and saved in your [home folder](https://plot.ly/organi
 
 ### 3.1. Add Charts
 
-First, to add the 1990 choropleth map, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Outbreak Locations Map** we made earlier.
+First, to add the Outbreak Locations Map, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Outbreak Locations Map** we made earlier.
 
 ![Add Atlas Map](../screencasts/ebola-outbreaks/dashboard/add-plot.png)
 
-Next, add the **Deaths per Outbreak Scatter Plot**  following the same process. This time drag and drop the plot on the right half of the Outbreak Locations Map. You ough to something similar to below.
+Next, add the **Deaths per Outbreak Scatter Plot**  following the same process. This time drag and drop the plot on the right half of the Outbreak Locations Map. You ought to something like below.
 
 ![Add Scatter Plot](../screencasts/ebola-outbreaks/dashboard/add-plot2.png)
 
@@ -160,17 +155,17 @@ Add the final plot (or table), **All Outbreak Data**, to the bottom of the dashb
 
 ![Add Table](../screencasts/ebola-outbreaks/dashboard/add-plot3.png)
 
-Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **Outbreak Locations**, **Death per Outbreak**, and **All Outbreak Data** in the same order as we added the plots. Your result ought to look like below.
+Now that we have added all the plots to the dashboard, for each plot where it says, "Enter a title..." insert plot titles: **Outbreak Locations**, **Death per Outbreak**, and **All Outbreak Data** in the same order as we added the plots. Your result ought to look like below.
 
 ![Add Plot Titles](../screencasts/ebola-outbreaks/dashboard/add-plot-titles.png)
 
 ### 3.2. Style It
 
-Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu.
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *Settings Icon* directly opposite the dashboard title. When hovering you ought to see the option **Settings** from the menu.
 
 ![Settings](../screencasts/ebola-outbreaks/dashboard/settings.png)
 
-After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Ebola Outbreaks 1976-2013** to the *Title* text box. Next, we can add a link to the original dataset by adding the text **Data Source: Nature** with the URL: **https://www.nature.com/articles/sdata201442#data-records**.
+After clicking **Settings**, a panel ought to appear from the right-hand side of the screen. Here, we have the option of *Headers*, *Colors*, *Text*, *Layout*, and *Filter*. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Ebola Outbreaks 1976-2013** to the *Title* text box. Next, we can add a link to the original dataset by adding the text **Data Source: Nature** with the URL: **https://www.nature.com/articles/sdata201442#data-records**.
 
 ![Header](../screencasts/ebola-outbreaks/dashboard/header.png)
 
@@ -182,7 +177,7 @@ In the next tab, *Colors*, we can manipulate the background, borders, and text c
 
 ![Text](../screencasts/ebola-outbreaks/dashboard/text.png)
 
-In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, enable both the *Search Bar* and the **Crossfilter** feature by selecting **enable** (for more information about this feature see the next section).
+In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, enable both the *Search Bar* and the **Crossfilter** feature by selecting **Enable** (for more information about this feature see the next section).
 
 ![Filter](../screencasts/ebola-outbreaks/dashboard/filter.png)
 
@@ -191,8 +186,9 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 ![Save](../screencasts/ebola-outbreaks/dashboard/save.png)
 
 ## 4. Crossfilter
+Finally, we'll briefly demonstrate crossfilter.
 
-Crossfilter is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **enable** in Settings > Filter.
+Crossfilter is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **Enable** in Settings > Filter.
 
 To use crossfilter, simply click-and-drag on a chart. Selected data that shares common rows with other charts will highlight and all other data will fade out. To reset the dashboard, click anywhere on a graph that doesn't have data.
 
