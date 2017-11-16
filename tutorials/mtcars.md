@@ -1,13 +1,6 @@
-TODO
-
-- replace some dashboard images (styling changes)
-- add gif at bottom
-- proofread
-___
-
 # Motor Trend Car Road Tests 1970-71
 
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+In this tutorial, we'll create and style multiple individual plots from separate datasets in the Chart Studio, add them to a dashboard, and utilize the crossfilter feature to interact and explore these data further. The main purpose of this dashboard is to show that you can create a crossfilter dashboard with plots that have different grids, so long as the grids have the same number of rows.
 
 ## Contents
 
@@ -28,7 +21,7 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the Motor Trend Car Road Tests dataset from the [1974 Motor Trend US magazine](https://gist.github.com/omarish/5687264).
 
-In this dashboard, each of the six plots have been made with a unique dataset. That is, one plot to one dataset. Therefore, we have taken the above dataset and created 6 unique sub-datasets. Below, is table of the plot / sub-dataset associations:
+In the created dashboard, each of the six plots have been made with a unique dataset. That is, one plot to one grid. Therefore, we have taken the above dataset and created 6 unique subsets. Below, is a table of the plot / dataset associations:
 
 | Plot | Dataset |
 | -------------- | ------------- |
@@ -41,10 +34,10 @@ In this dashboard, each of the six plots have been made with a unique dataset. T
 
 
 ## 2. Create a Chart
-
-To visualize Motor Trend Car Road Tests 1970-71, we'll create six individual charts: (1) a horizontal bar chart of miles per gallon (mpg) by car model, (2) a scatter plot of mpg vs cyclinders, and a further four scatter plots composed of different variables: horsepower vs acceleration, horsepower vs displacement, weight vs horsepower, and weight vs acceleration. As previously mentioned, the main intention of these charts is that they are each created from a unique dataset.
+To visualize Motor Trend Car Road Tests 1970-71, we'll create six individual charts: (1) a horizontal bar chart of miles per gallon (mpg) by car model, (2) a scatter plot of mpg vs cyclinders, and a further four scatter plots composed of different variables: (3) horsepower vs acceleration, (4) horsepower vs displacement, (5) weight vs horsepower, and (6) weight vs acceleration. As previously mentioned, the main intention of these charts is that they are each created from a unique dataset.
 
 ### 2.1. Car Model Bar Chart
+Using the [Car Model Bar Chart grid](https://plot.ly/~bdun9/2395/), open the data in the Chart Studio.
 
 ##### 2.1.1. Create
 Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Bar Chart** from the *Business* column.
@@ -56,7 +49,7 @@ Next, we can populate the graph by selecting **mpg** and **name** in the *x* and
 ![Trace Values](../screencasts/mtcars/mpg-vs-name/trace-values.png)
 
 ##### 2.1.2. Traces
-Now that the graph is populated, we can look to style it. Thus, under the *Style* tab select *Traces*. Since we want to make a horizontal bar chart, we cab simply click **Horizontal** and magic is done for us. In this tutorial were going to style the markers / traces black thus set the *Fill* to **#000000**. To prevent any clutter we alter the *Size and Spacing* by setting the *Bar Width* to **70** and *Padding* to **10**.
+Now that the graph is populated, we can look to style it. Thus, under the *Style* tab select *Traces*. Since we want to make a horizontal bar chart, we cab simply click **Horizontal** and magic is done for us. In this tutorial were going to style the markers / traces black thus set the *Fill* to **#000000**. To prevent any clutter, we alter the *Size and Spacing* by setting the *Bar Width* to **70** and *Padding* to **10**.
 
 ![Trace Styles](../screencasts/mtcars/mpg-vs-name/trace-styles.png)
 
@@ -70,12 +63,12 @@ Next, open *Title and Fonts* and in *Global Font* set the *Typeface* to **Ralewa
 ![Global Font](../screencasts/mtcars/mpg-vs-name/global-font.png)
 
 Again, due to the text on the y axis, select the *Margins and Padding* box
-and enter the values **0, 20, 150, 10, 0**, respectively. This ought to have provided you with something similar to below.
+and enter the values **0, 20, 150, 10, 0**, respectively. This ought to have provided you with something like below.
 
 ![Margins](../screencasts/mtcars/mpg-vs-name/margins.png)
 
 ##### 2.1.4. Axes
-Now that we've finished with the *Layout*, navigate to *Axes* wher *Titles* ought to be open already. Set *x* to **Mpg** and *Font Size* **12** before removing the *y* title.
+Now that we've finished with the *Layout*, navigate to *Axes* where *Titles* ought to be open already. Set *x* to **Mpg** and *Font Size* **12** before removing the *y* title.
 
 ![Axes Titles](../screencasts/mtcars/mpg-vs-name/axes-titles.png)
 
@@ -83,7 +76,7 @@ Next, open *Lines*, *All*, and select **Hide** for all options.
 
 ![Lines](../screencasts/mtcars/mpg-vs-name/lines.png)
 
-Finally, select *Zoom Interactivity* and click **disable**.
+Finally, select *Zoom Interactivity* and click **Disable**.
 
 ![Zoom](../screencasts/mtcars/mpg-vs-name/zoom.png)
 
@@ -94,9 +87,10 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 
 ### 2.2. Mpg vs Cylinder Scatter Plot
+Using the [Mpg vs Cylinder Scatter Plot grid](https://plot.ly/~bdun9/2385/), open the data in the Chart Studio.
 
 ##### 2.2.1. Create
-Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Chart** from the *Business* column.
+Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Plot** from the *Business* column.
 
 ![Chart Type](../screencasts/mtcars/mpg-vs-cyl/chart-type.png)
 
@@ -125,7 +119,7 @@ and enter the values **20, 50, 50, 20, 0**, respectively.
 
 
 ##### 2.2.4. Axes
-Now that we've finished with the *Layout*, navigate to *Axes* wher *Titles* ought to be open already. Set *x* to **Mpg** and *Font Size* **12**, *y* to **Cylinders** and *Font Size* **12**.
+Now that we've finished with the *Layout*, navigate to *Axes* where *Titles* ought to be open already. Set *x* to **Mpg** and *Font Size* **12**, *y* to **Cylinders** and *Font Size* **12**.
 
 ![Axes Titles](../screencasts/mtcars/mpg-vs-cyl/axes-titles.png)
 
@@ -133,11 +127,11 @@ Next, open *Lines*, *x*, and select **Hide** for all options. Leave the *y* grid
 
 ![Lines](../screencasts/mtcars/mpg-vs-cyl/lines.png)
 
-text
+As the data only consists of 4, 6, and 8 on the y axis, we'll only display the necessary labels. Thus, open *Tick Labels*, *y*, and set *Number of Labels* to **Custom** and **3**.
 
 ![Tick Labels](../screencasts/mtcars/mpg-vs-cyl/tick-labels.png)
 
-Finally, select *Zoom Interactivity* and click **disable**.
+Finally, select *Zoom Interactivity* and click **Disable**.
 
 ![Zoom](../screencasts/mtcars/mpg-vs-cyl/zoom.png)
 
@@ -148,9 +142,10 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 
 ### 2.3. Hp vs Acc Scatter Plot
+Using the [Hp Vs Acc Scatter Plot grid](https://plot.ly/~bdun9/2381/), open the data in the Chart Studio.
 
 ##### 2.3.1. Create
-Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Chart** from the *Business* column.
+Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Plot** from the *Business* column.
 
 ![Chart Type](../screencasts/mtcars/hp-vs-acc/chart-type.png)
 
@@ -188,7 +183,7 @@ Next, open *Lines*, *All*, and select **Hide** for all options.
 ![Lines](../screencasts/mtcars/hp-vs-acc/lines.png)
 
 
-Finally, select *Zoom Interactivity* and click **disable**.
+Finally, select *Zoom Interactivity* and click **Disable**.
 
 ![Zoom](../screencasts/mtcars/hp-vs-acc/zoom.png)
 
@@ -198,9 +193,10 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ![Save](../screencasts/mtcars/hp-vs-acc/save.png)
 
 ### 2.4. Hp vs Disp Scatter Plot
+Using the [Hp Vs Disp Scatter Plot grid](https://plot.ly/~bdun9/2405/), open the data in the Chart Studio.
 
 ##### 2.4.1. Create
-Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Chart** from the *Business* column.
+Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Plot** from the *Business* column.
 
 ![Chart Type](../screencasts/mtcars/hp-vs-disp/chart-type.png)
 
@@ -208,12 +204,13 @@ Next, we can populate the graph by selecting **mpg** and **cylinders** in the *x
 
 ![Trace Values](../screencasts/mtcars/hp-vs-disp/trace-values.png)
 
-Refer to 2.3.2 onwards (enter the appropriate titles when following 2.3.4).
+**Refer to 2.3.2 onwards** (enter the appropriate titles when following 2.3.4).
 
 ### 2.5. Weight vs Hp Scatter Plot
+Using the [Weight Vs Hp Scatter Plot grid](https://plot.ly/~bdun9/2384/), open the data in the Chart Studio.
 
 ##### 2.5.1. Create
-Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Chart** from the *Business* column.
+Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Plot** from the *Business* column.
 
 ![Chart Type](../screencasts/mtcars/weight-vs-hp/chart-type.png)
 
@@ -221,12 +218,13 @@ Next, we can populate the graph by selecting **hp** and **weight** in the *x* an
 
 ![Trace Values](../screencasts/mtcars/weight-vs-hp/trace-values.png)
 
-Refer to 2.3.2 onwards (enter the appropriate titles when following 2.3.4).
+**Refer to 2.3.2 onwards** (enter the appropriate titles when following 2.3.4).
 
 ### 2.6. Weight vs Acc Scatter Plot
+Using the [Weight Vs Acc Scatter Plot grid](https://plot.ly/~bdun9/2382/), open the data in the Chart Studio.
 
 ##### 2.6.1. Create
-Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Chart** from the *Business* column.
+Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Plot** from the *Business* column.
 
 ![Chart Type](../screencasts/mtcars/weight-vs-acc/chart-type.png)
 
@@ -234,14 +232,14 @@ Next, we can populate the graph by selecting **acc** and **weight** in the *x* a
 
 ![Trace Values](../screencasts/mtcars/weight-vs-acc/trace-values.png)
 
-Refer to 2.3.2 onwards (enter the appropriate titles when following 2.3.4).
+**Refer to 2.3.2 onwards** (enter the appropriate titles when following 2.3.4).
 
 ## 3. Create a Dashboard
 
 With the charts completed and saved in your [home folder](https://plot.ly/organize/home), we can now create a dashboard by simply adding these charts, adjusting the layout, and styling the dashboard before sharing and interacting. To get started with creating a dashboard, hover over the *+Create* button and select **Dashboard** from the menu. Alternatively, open this [link](https://plot.ly/dashboard/create).
 
 ### 3.1. Add Charts
-First, to add the pie chart, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Car Model Bar Chart** we made earlier.
+First, to add the Car Model Bar Chart, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Car Model Bar Chart** we made earlier.
 
 ![Add Bar Chart](../screencasts/mtcars/dashboard/add-plot.png)
 
@@ -261,21 +259,21 @@ Add, **Horsepower vs Acceleration Scatter Plot**. This time drag and drop on the
 
 ![Add Hp vs Disp](../screencasts/mtcars/dashboard/add-plot5.png)
 
-Similarly, place **Weight vs Acceleration Scatter Plot**. on the right-hand side of the bottom row (weight vs hp). You ought to now have a dashboard like below.
+Similarly, place **Weight vs Acceleration Scatter Plot**. on the right-hand side of the bottom row (weight vs hp). Now, you ought to have a dashboard like below.
 
 ![Add Wt vs Hp](../screencasts/mtcars/dashboard/add-plot6.png)
 
-Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **Miles Per Gallon by Car Model**, **Mpg vs Cylinder**, **Displacement vs Horsepower**, **Acceleration vs Horsepower**, **Horsepower vs Weight**, and **Acceleration vs Weight**, respectively. Your result ought to look like below.
+Now that we have added all the plots to the dashboard, for each plot where it says, "Enter a title..." insert plot titles: **Miles Per Gallon by Car Model**, **Mpg vs Cylinder**, **Displacement vs Horsepower**, **Acceleration vs Horsepower**, **Horsepower vs Weight**, and **Acceleration vs Weight**, respectively. Your result ought to look like below.
 
 ![Add Plot Titles](../screencasts/mtcars/dashboard/add-plot-titles.png)
 
 ### 3.2. Style It
 
-Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu.
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *Settings Icon* directly opposite the dashboard title. When hovering you ought to see the option **Settings** from the menu.
 
 ![Settings](../screencasts/mtcars/dashboard/settings.png)
 
-After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Motor Trend Car Road Tests 1970-71** to the *Title* text box. Now, lets add a link to the original dataset. by add the text **Data Source: mtcars** with the URL: **https://gist.github.com/omarish/5687264**.
+After clicking **Settings**, a panel ought to appear from the right-hand side of the screen. Here, we have the option of *Headers*, *Colors*, *Text*, *Layout*, and *Filter*. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Motor Trend Car Road Tests 1970-71** to the *Title* text box. Now, lets add a link to the original dataset. Add the text **Data Source: mtcars** with the URL: **https://gist.github.com/omarish/5687264**.
 
 ![Header](../screencasts/mtcars/dashboard/header.png)
 
@@ -287,7 +285,7 @@ In the next tab, *Colors*, we can manipulate the background, borders, and text c
 
 ![Text](../screencasts/mtcars/dashboard/text.png)
 
-In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, **enable** both *Search Bar* and the *Crossfilter* feature (for more information about this feature see the next section). Now, like below, you ought to see a search bar and filter dropdown appear below the dashboard header.
+In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as-is but let’s activate the *Crossfilter* feature by selecting **Enable** (for more information about this feature see the next section).
 
 ![Filter](../screencasts/mtcars/dashboard/filter.png)
 
@@ -296,8 +294,9 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 ![Save](../screencasts/mtcars/dashboard/save.png)
 
 ## 4. Crossfilter
+Finally, we'll briefly demonstrate crossfilter.
 
-Crossfilter is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **enable** in Settings > Filter.
+**Crossfilter** is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **enable** in Settings > Filter.
 
 To use crossfilter, simply click-and-drag on a chart. Selected data that shares common rows with other charts will highlight and all other data will fade out. To reset the dashboard, click anywhere on a graph that doesn't have data.
 
