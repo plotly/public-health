@@ -1,7 +1,7 @@
 TODO
 
-- replace some dashboard images
-- restructure layout
+- replace some dashboard images (styling changes)
+- add gif at bottom
 - proofread
 ___
 
