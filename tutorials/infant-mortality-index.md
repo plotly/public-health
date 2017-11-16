@@ -6,9 +6,9 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 - [Data](#1-data)
 - [Create a Chart](#2-create-a-chart)
-  - [1990 IMI Choropleth](#21-choropleth-1990)
-  - [2015 IMI Choropleth](#22-choropleth-2015)
-  - [1990 vs 2015 IMI Scatter Plot](#23-scatter-plot)
+  - [1990 IMI Choropleth](#21-1990-imi-choropleth)
+  - [2015 IMI Choropleth](#22-2015-imi-choropleth)
+  - [1990 vs 2015 IMI Scatter Plot](#23-1990-vs-2015-imi-scatter-plot)
 - [Create a Dashboard](#3-create-a-dashboard)
   - [Add Charts](#31-add-charts)
   - [Style It](#32-style-it)
@@ -29,7 +29,7 @@ Alternatively, navigate to the [Chart Studio](https://plot.ly/create/) and click
 
 To visualize the differences between 1990 and 2015 Infant Mortality Index, we'll create three individual charts: (1) a 1990 infant mortality index choropleth map, (2) 2015 infant mortality index choropleth map, and (3) a 1990 versus 2015 infant mortality index scatter plot for further comparison.
 
-### 2.1. Choropleth 1990
+### 2.1. 1990 IMI Choropleth
 
 ##### 2.1.1. Create
 Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Choropleth** from the *Maps* column.
@@ -82,7 +82,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 ![Save](../screencasts/infant-mortality/choropleth1990/save.png)
 
-### 2.2. Choropleth 2015
+### 2.2. 2015 IMI Choropleth
 Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.2.1. Create
@@ -135,7 +135,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 ![Save](../screencasts/infant-mortality/choropleth2015/save.png)
 
-### 2.3. Scatter Plot
+### 2.3. 1990 vs 2015 IMI Scatter Plot
 Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.3.1. Create
