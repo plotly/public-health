@@ -1,6 +1,5 @@
 TODO
 
-- restructure layout
 - proofread
 ___
 
