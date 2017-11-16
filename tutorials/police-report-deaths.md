@@ -1,7 +1,6 @@
 TODO
 
-- add gif
-- restructure layout
+- add gif to bottom
 - proofread
 ___
 
