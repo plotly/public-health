@@ -137,7 +137,7 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 | Dataset on plot.ly               | https://plot.ly/~public.health/8                          |
 | Original dataset                 | [Nature: Science Direct](http://go.nature.com/2zKJN9u)    |
 | Dashboard inspiration            | [Nature: Science Direct](http://go.nature.com/2zKJN9u)    |
-| Tutorial to make this dashboard  | TODO                                                      |
+| Tutorial to make this dashboard  | [Tutorial](tutorials/ebola-outbreaks.md)                  |
 | Plotly.js charts in dashboard    | Time series, D3 map with hover text, SVG table            |
 
 #### Example observations
