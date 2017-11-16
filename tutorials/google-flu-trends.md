@@ -1,16 +1,9 @@
-TODO
-
-- add gif
-- proofread
-___
-
 # Google Flu Trends
 
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore these data further.
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter feature to interact and explore these data further.
 
 ## Contents
 
-- [Overview](#overview)
 - [Data](#1-data)
 - [Create a Chart](#2-create-a-chart)
   - [Oklahoma Bar Chart](#21-oklahoma-bar-chart)
@@ -26,18 +19,17 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 ## 1. Data
 
-To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use a Google Flu Trends dataset from [Google Flu Trends](https://www.google.org/flutrends/about/data/flu/us/data.txt).
-Simply, copy the URL (https://plot.ly/~Dreamshot/9040.csv) or open the [dataset](https://plot.ly/~Dreamshot/9040/) and click **Fork & Edit** to begin.
+To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use a Google Flu Trends dataset from [Google Flu Trends](https://www.google.org/flutrends/about/data/flu/us/data.txt). To begin, view the [dataset](https://plot.ly/~Dreamshot/9040/) and click **Fork & Edit**. The Chart Studio ought to have opened and you're all set to go.
 
 ![Fork and Edit](../screencasts/google-flu-trends/oklahoma-bar/fork-and-edit.png)
 
-If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL** (https://plot.ly/~Dreamshot/9040.csv).
+Alternatively, navigate to the [Chart Studio](https://plot.ly/create/) and click **Import**, **By URL**, and then paste in the **URL** (https://plot.ly/~Dreamshot/9040.csv).
 
 ![Add Data](../screencasts/google-flu-trends/oklahoma-bar/add-data.png)
 
 ## 2. Create a Chart
 
-To visualize Google flu trends, we'll create five individual charts: (1) Oklahoma bar chart, (2) New York bar chart, (3) US bar chart, (4) a boxplot to Google searches, and (5) a boxplot of searches by region. In this section we'll look at how to make each of the charts.
+To visualize Google flu trends, we'll create five individual charts: (1) Oklahoma bar chart, (2) New York bar chart, (3) US bar chart, (4) a boxplot of Google searches, and (5) a boxplot of searches by region. In the section below, we'll look at how to make each of the charts.
 
 ### 2.1. Oklahoma Bar Chart
 
@@ -51,13 +43,12 @@ Now, you ought to see the *y* and *x* dropdowns. Select **Oklahoma** and **Date*
 ![Trace Values](../screencasts/google-flu-trends/oklahoma-bar/trace-values.png)
 
 ##### 2.1.2. Traces
-
-Set *Fill* to **#00CC96**.
+To style the bars, navigate to *Traces* under *Style* and set *Fill* to **#00CC96**.
 
 ![Trace Styles](../screencasts/google-flu-trends/oklahoma-bar/trace-styles.png)
 
 ##### 2.1.3. Layout
-Now that we've finished styling the trace, click *Layout* to style the background, fonts, and margins. To complete the former, select *Canvas* and set **#F3F6FA** as both plot and margin color.
+Now that we've finished styling the trace, click *Layout* to style the background, fonts, and margins. To complete the former, select *Canvas* and set **#F3F6FA** as both *Plot* and *Margin Color*.
 
 ![Canvas](../screencasts/google-flu-trends/oklahoma-bar/canvas.png)
 
@@ -65,13 +56,12 @@ Below that, open the *Title and Fonts* box and under *Global Font*, set *Typefac
 
 ![Global Font](../screencasts/google-flu-trends/oklahoma-bar/global-font.png)
 
-To set the margins, select the *Margins and Padding* box
-and enter the values **0, 30, 50, 150, 0**, respectively.
+To set the margins, select the *Margins and Padding* box and enter the values **0, 30, 50, 150, 0**, respectively.
 
 ![Margins](../screencasts/google-flu-trends/oklahoma-bar/margins.png)
 
 ##### 2.1.4. Axes
-To edit the axis titles, grid lines, and tick labels, navigate to the *Axes* tab. First, in the *Titles* remove the *x* title and then set the *y* axis title to **"Google Flu trends search volume index"**.
+To edit the axis titles, grid lines, and tick labels, navigate to the *Axes* tab. First, in the *Titles* remove the *x* title and then set the *y* axis title to **Google Flu trends search volume index**.
 
 ![Axes Titles](../screencasts/google-flu-trends/oklahoma-bar/axes-titles.png)
 
@@ -85,6 +75,8 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ![Save](../screencasts/google-flu-trends/oklahoma-bar/save.png)
 
 ### 2.2. New York Bar Chart
+Using the same grid as the previous plot, open the data in the Chart Studio.
+
 
 ##### 2.2.1. Create
 Again, now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Bar Chart** from the *Business* column.
@@ -97,12 +89,12 @@ Now, you ought to see the *y* and *x* dropdowns. Select **New York** and **Date*
 
 ##### 2.2.2. Traces
 
-Set *Fill* to **#09FFFF**.
+Like the previous bar chart, navigate to *Traces* under *Style* and set *Fill* to **#09FFFF**.
 
 ![Trace Styles](../screencasts/google-flu-trends/ny-bar/trace-styles.png)
 
 ##### 2.2.3. Layout
-Now that we've finished styling the trace, click *Layout* to style the background, fonts, and margins. To complete the former, select *Canvas* and set **#F3F6FA** as both plot and margin color.
+Now that we've finished styling the trace, click *Layout* to style the background, fonts, and margins. To complete the former, select *Canvas* and set **#F3F6FA** as both *Plot* and *Margin Color*.
 
 ![Canvas](../screencasts/google-flu-trends/ny-bar/canvas.png)
 
@@ -110,13 +102,12 @@ Below that, open the *Title and Fonts* box and under *Global Font*, set *Typefac
 
 ![Global Font](../screencasts/google-flu-trends/ny-bar/global-font.png)
 
-To set the margins, select the *Margins and Padding* box
-and enter the values **0, 30, 50, 150, 0**, respectively.
+To set the margins, select the *Margins and Padding* box and enter the values **0, 30, 50, 150, 0**, respectively.
 
 ![Margins](../screencasts/google-flu-trends/ny-bar/margins.png)
 
 ##### 2.2.4. Axes
-To edit the axis titles, grid lines, and tick labels, navigate to the *Axes* tab. First, in the *Titles* remove the *x* title and then set the *y* axis title to **"Google Flu trends search volume index"**.
+To edit the axis titles, grid lines, and tick labels, navigate to the *Axes* tab. First, in the *Titles* remove the *x* title and then set the *y* axis title to **Google Flu trends search volume index**.
 
 ![Axes Titles](../screencasts/google-flu-trends/ny-bar/axes-titles.png)
 
@@ -131,6 +122,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ![Save](../screencasts/google-flu-trends/ny-bar/save.png)
 
 ### 2.3. US Bar Chart
+Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.3.1. Create
 Like the previous bar chart, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Bar Chart** from the *Business* column.
@@ -142,12 +134,12 @@ Now, you ought to see the *y* and *x* dropdowns. Select **United States** and **
 ![Trace Values](../screencasts/google-flu-trends/us-bar/trace-values.png)
 
 ##### 2.3.2. Traces
-Set *Fill* to **#119DFF**.
+In *Traces*, set *Fill* to **#119DFF**.
 
 ![Trace Styles](../screencasts/google-flu-trends/us-bar/trace-styles.png)
 
 ##### 2.3.3. Layout
-Now that we've finished styling the trace, click *Layout* to style the background, fonts, and margins. To complete the former, select *Canvas* and set **#F3F6FA** as both plot and margin color.
+Now that we've finished styling the trace, click *Layout* to style the background, fonts, and margins. To complete the former, select *Canvas* and set **#F3F6FA** as both*Plot* and *Margin Color*.
 
 ![Canvas](../screencasts/google-flu-trends/us-bar/canvas.png)
 
@@ -161,7 +153,7 @@ and enter the values **0, 30, 50, 150, 0**, respectively.
 ![Margins](../screencasts/google-flu-trends/us-bar/margins.png)
 
 ##### 2.3.3. Axes
-To edit the axis titles, grid lines, and tick labels, navigate to the *Axes* tab. First, in the *Titles* remove the *x* title and then set the *y* axis title to **"Google Flu trends search volume index"**.
+To edit the axis titles, grid lines, and tick labels, navigate to the *Axes* tab. First, in the *Titles* remove the *x* title and then set the *y* axis title to **Google Flu trends search volume index**.
 
 ![Axes Titles](../screencasts/google-flu-trends/us-bar/axes-titles.png)
 
@@ -176,6 +168,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 
 ### 2.4. Search Boxplot
+Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.4.1. Create
 After loading the data, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and select **Box Plot** from the *Statistics* column.
@@ -191,7 +184,7 @@ With the traces added you can see that before styling the traces the y axis scal
 
 ![Log Scale](../screencasts/google-flu-trends/search-box/log-scale.png)
 
-Staying in the *Axes* tab, open *Titles* remove the *x* title and then set the *y* axis title to **"Google Flu trends search volume index"**.
+Staying in the *Axes* tab, open *Titles* remove the *x* title and then set the *y* axis title to **Google Flu trends search volume index**.
 
 ![Axes Titles](../screencasts/google-flu-trends/search-box/axes-titles.png)
 
@@ -224,6 +217,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 ![Save](../screencasts/google-flu-trends/search-box/save.png)
 
 ### 2.5. Search Region Boxplot
+Using the same grid as the previous plot, open the data in the Chart Studio.
 
 ##### 2.5.1. Create
 After loading the data, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and select **Box Plot** from the *Statistics* column.
@@ -234,7 +228,7 @@ Like previous plots we want to populate the graph with data, thus in the *Values
 
 ![Trace Values](../screencasts/google-flu-trends/search-region-box/trace-values.png)
 
-As we want to add all HHS regions we need to add multiple traces. To do so, click the blue *+ Trace* button and in the new trace box that appears alter the *Values* dropdown to **HHS Region [n]**. Repeat this process until you've added all 10 regions. You ough to something similar to below.
+As we want to add all HHS regions we need to add multiple traces. To do so, click the blue *+ Trace* button and in the new trace box that appears alter the *Values* dropdown to **HHS Region [n]**. Repeat this process until you've added all 10 regions. You ought to something like below.
 
 ![Trace Values](../screencasts/google-flu-trends/search-region-box/trace-values-all.png)
 
@@ -263,7 +257,7 @@ and enter the values **0, 30, 50, 150, 0**, respectively.
 ![Margins](../screencasts/google-flu-trends/search-region-box/margins.png)
 
 ##### 2.5.4. Axes
-Next, navigate to the *Axes* tab, open *Titles* remove the *x* title and then set the *y* axis title to **"Google Flu trends search volume index"**.
+Next, navigate to the *Axes* tab, open *Titles* remove the *x* title and then set the *y* axis title to **Google Flu trends search volume index**.
 
 ![Axes Titles](../screencasts/google-flu-trends/search-region-box/axes-titles.png)
 
@@ -285,7 +279,7 @@ Before adding a chart, we'll add a text box to describe the dashboard and its us
 
 ![Add Text](../screencasts/google-flu-trends/dashboard/add-text.png)
 
-Now to add the Oklahoma bar plot, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Oklahoma Bar Plot** we made earlier.
+Now to add the Oklahoma Bar Plot, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Oklahoma Bar Plot** we made earlier.
 
 ![Add Oklahoma Bar](../screencasts/google-flu-trends/dashboard/add-plot.png)
 
@@ -293,17 +287,17 @@ Repeat this process to add all the charts in the order they were made.
 
 ![Add All Plots](../screencasts/google-flu-trends/dashboard/add-plot-all.png)
 
-Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **Flu Search Volume in Oklahoma**, **Flu Search Volume in New York**, and **Flu Search Volume in United States**, **Flu Search Boxplot** twice, in the same order as we added the plots. Your result ought to look like below.
+Now that we have added all the plots to the dashboard, for each plot where it says, "Enter a title..." insert plot titles: **Flu Search Volume in Oklahoma**, **Flu Search Volume in New York**, and **Flu Search Volume in United States**, **Flu Search Boxplot** twice, in the same order as we added the plots. Your result ought to look like below.
 
 ![Add Plot Titles](../screencasts/google-flu-trends/dashboard/add-plot-title.png)
 
 ### 3.2. Style It
 
-Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu.
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *Settings Icon* directly opposite the dashboard title. When hovering you ought to see the option **Settings** from the menu.
 
 ![Settings](../screencasts/google-flu-trends/dashboard/settings.png)
 
-After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Flu Trends** to the *Title* text box. Next, let's add the Google logo. We can do this by simply adding the URL for the logo PNG: **http://diylogodesigns.com/blog/wp-content/uploads/2016/04/new-google-logo-png.png**.
+After clicking **Settings**, a panel ought to appear from the right-hand side of the screen. Here, we have the option of *Headers*, *Colors*, *Text*, *Layout*, and *Filter*. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **Flu Trends** to the *Title* text box. Next, let's add the Google logo. We can do this by simply adding the URL for the logo PNG: **http://diylogodesigns.com/blog/wp-content/uploads/2016/04/new-google-logo-png.png**.
 
 ![Header](../screencasts/google-flu-trends/dashboard/header.png)
 
@@ -311,11 +305,11 @@ In the next tab, *Colors*, we can manipulate the background, borders, and text c
 
 ![Colors](../screencasts/google-flu-trends/dashboard/colors.png)
 
-*Text*, the third settings option, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the Colors tab, some values are defined. However, here, we'll set the *Font Family* to **Raleway**. Make the header font larger by selecting **2.2em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**. Lastly, to separate the text box, set the *Text Box Background Color* to **#F3F6FA**.
+*Text*, the third option, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the Colors tab, some values are defined. However, here, we'll set the *Font Family* to **Raleway**. Make the header font larger by selecting **2.2em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**. Lastly, to separate the text box, set the *Text Box Background Color* to **#F3F6FA**.
 
 ![Text](../screencasts/google-flu-trends/dashboard/text.png)
 
-In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as is but lets enable the *Crossfilter* feature by selecting **enable** (for more information about this feature see the next section).
+In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as-is but let’s enable the *Crossfilter* feature by selecting **Enable** (for more information about this feature see the next section).
 
 ![Filter](../screencasts/google-flu-trends/dashboard/filter.png)
 
@@ -324,8 +318,9 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 ![Save](../screencasts/google-flu-trends/dashboard/save.png)
 
 ## 4. Crossfilter
+Finally, we'll briefly demonstrate crossfilter.
 
-Crossfilter is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **enable** in Settings > Filter.
+**Crossfilter** is a visual analysis technique for multidimensional data. It is used to clarify relationships between dimensions. As discussed in the previous section, crossfilter functionality is invoked by setting **Enable** in Settings > Filter.
 
 To use crossfilter, simply click-and-drag on a chart. Selected data that shares common rows with other charts will highlight and all other data will fade out. To reset the dashboard, click anywhere on a graph that doesn't have data.
 
