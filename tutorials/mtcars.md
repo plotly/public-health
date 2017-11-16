@@ -1,6 +1,6 @@
 TODO
 
-- images done by need added
+- replace some dashboard images
 - restructure layout
 - proofread
 ___
@@ -15,10 +15,10 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 - [Create a Chart](#2-create-a-chart)
   - [Car Model Bar Chart](#21-car-model-bar-chart)
   - [Mpg vs Cylinder Scatter Plot](#22-mpg-vs-cylinder-scatter-plot)
-  - [Hp vs Acc Scatter Plot](#23-mpg-vs-cylinder-scatter-plot)
-  - [Hp vs Disp Scatter Plot](#24-mpg-vs-cylinder-scatter-plot)
-  - [Weight vs Hp Scatter Plot](#25-mpg-vs-cylinder-scatter-plot)
-  - [Weight vs Acc Scatter Plot](#26-mpg-vs-cylinder-scatter-plot)
+  - [Hp vs Acc Scatter Plot](#23-hp-vs-acc-scatter-plot)
+  - [Hp vs Disp Scatter Plot](#24-hp-vs-disp-scatter-plot)
+  - [Weight vs Hp Scatter Plot](#25-weight-vs-hp-scatter-plot)
+  - [Weight vs Acc Scatter Plot](#26-weight-vs-acc-scatter-plot)
 - [Create a Dashboard](#3-create-a-dashboard)
   - [Add Charts](#31-add-charts)
   - [Style It](#32-style-it)
@@ -77,7 +77,7 @@ and enter the values **0, 20, 150, 10, 0**, respectively. This ought to have pro
 ##### 2.1.4. Axes
 Now that we've finished with the *Layout*, navigate to *Axes* wher *Titles* ought to be open already. Set *x* to **Mpg** and *Font Size* **12** before removing the *y* title.
 
-![Axes Titles](../screencasts/mtcars/mpg-vs-name/legend.png)
+![Axes Titles](../screencasts/mtcars/mpg-vs-name/axes-titles.png)
 
 Next, open *Lines*, *All*, and select **Hide** for all options.
 
@@ -127,7 +127,7 @@ and enter the values **20, 50, 50, 20, 0**, respectively.
 ##### 2.2.4. Axes
 Now that we've finished with the *Layout*, navigate to *Axes* wher *Titles* ought to be open already. Set *x* to **Mpg** and *Font Size* **12**, *y* to **Cylinders** and *Font Size* **12**.
 
-![Axes Titles](../screencasts/mtcars/mpg-vs-cyl/legend.png)
+![Axes Titles](../screencasts/mtcars/mpg-vs-cyl/axes-titles.png)
 
 Next, open *Lines*, *x*, and select **Hide** for all options. Leave the *y* grid lines as **Show**.
 
@@ -181,7 +181,7 @@ and enter the values **20, 50, 50, 20, 0**, respectively.
 ##### 2.3.4. Axes
 Now that we've finished with the *Layout*, navigate to *Axes* wher *Titles* ought to be open already. Set *x* to **Acceleration** and *Font Size* **12**, *y* to **Horsepower** and *Font Size* **12**.
 
-![Axes Titles](../screencasts/mtcars/hp-vs-acc/legend.png)
+![Axes Titles](../screencasts/mtcars/hp-vs-acc/axes-titles.png)
 
 Next, open *Lines*, *All*, and select **Hide** for all options.
 
@@ -243,19 +243,31 @@ With the charts completed and saved in your [home folder](https://plot.ly/organi
 ### 3.1. Add Charts
 First, to add the pie chart, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Car Model Bar Chart** we made earlier.
 
-![Add Bar Chart](../screencasts/mtcars/dashboard/add-pie-chart.png)
+![Add Bar Chart](../screencasts/mtcars/dashboard/add-plot.png)
 
-Next, add the scatter plot immediately below following the same process.
+Next, add the **Mpg vs Cylinder Scatter Plot** using the same process but drag and drop this one on the right-hand side of the horizontal bar chart.
 
-![Add Scatter Plot](../screencasts/mtcars/dashboard/add-scatter-plot.png)
+![Add Mpg vs Cyl](../screencasts/mtcars/dashboard/add-plot2.png)
 
-Like previously, add the choropleth map following the same process. This time drag and drop the plot on the right half of the scatter plot.
+Like previously, add the **Horsepower vs Displacement Scatter Plot**. This time drag and drop the plot on the bottom half of the previous scatter plot.
 
-![Add Choropleth](../screencasts/mtcars/dashboard/add-choropleth.png)
+![Add Hp vs Disp](../screencasts/mtcars/dashboard/add-plot3.png)
+
+And again for **Weight vs Horsepower Scatter Plot**. .
+
+![Add Wt vs Hp](../screencasts/mtcars/dashboard/add-plot4.png)
+
+Add, **Horsepower vs Acceleration Scatter Plot**. This time drag and drop on the right-hand side of the middle row (hp vs disp). Confirm with the image below.
+
+![Add Hp vs Disp](../screencasts/mtcars/dashboard/add-plot5.png)
+
+Similarly, place **Weight vs Acceleration Scatter Plot**. on the right-hand side of the bottom row (weight vs hp). You ought to now have a dashboard like below.
+
+![Add Wt vs Hp](../screencasts/mtcars/dashboard/add-plot6.png)
 
 Now that we have added all the plots to the dashboard, for each plot where it says "Enter a title..." insert plot titles: **Miles Per Gallon by Car Model**, **Mpg vs Cylinder**, **Displacement vs Horsepower**, **Acceleration vs Horsepower**, **Horsepower vs Weight**, and **Acceleration vs Weight**, respectively. Your result ought to look like below.
 
-![Add Plot Titles](../screencasts/mtcars/dashboard/add-plot-title.png)
+![Add Plot Titles](../screencasts/mtcars/dashboard/add-plot-titles.png)
 
 ### 3.2. Style It
 
