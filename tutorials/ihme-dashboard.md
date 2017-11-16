@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter function to interact and explore health indicators on a global scale. The data comes from the Institute for Health Metrics and Evaluation (IHME), which is based in Seattle, Washington, USA.
+In this tutorial, we'll create and style multiple individual plots in the Chart Studio, add them to a dashboard, and utilize the crossfilter feature to interact and explore health indicators on a global scale. The data comes from the Institute for Health Metrics and Evaluation (IHME), which is based in Seattle, Washington, USA.
 
  ## Contents
  
@@ -16,13 +16,13 @@ In this tutorial, we'll create and style multiple individual plots in the Chart 
 
 To get started, head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use data from the IHME in Seattle.
 
-Simply, copy the URL (https://plot.ly/~Dreamshot/8914) or click [**'Fork & Edit'**](https://plot.ly/create/?fid=Dreamshot:8914). If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL**.
+Simply, copy the URL (https://plot.ly/~Dreamshot/8914) or click [**'Fork & Edit'**](https://plot.ly/create/?fid=Dreamshot:8914). If you choose the latter, the Chart Studio ought to have opened and you're all set to go. If the former, navigate to the [Chart Studio](https://plot.ly/create/) and click **Import**, **By URL**, and then paste in the **URL**.
 
 ![Fork and Edit](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag/1.png)
 
 ## 2. Create a Chart
 
-To visualize international health metrics, we'll create six individual charts: (1) a choropleth map to illustrate worldwide healthy life expectancy, (2) a choropleth map to illustrate the prevalence of high risk alcohol consumption, (3) a choropleth map to illustrate daily smoking prevalence, (4) a bubble chart that examines the relationship between overweight prevalence and health life expectancy, (5) a bubble chart that examines the relationship between high risk alcohol consumption and healthy life expectancy, and (6) a bubble chart that examines the relationship between daily smoking prevalence and healthy life expectancy. In this section we'll look at how to make each of the charts.
+To visualize international health metrics, we'll create six individual charts: (1) a choropleth map to illustrate worldwide healthy life expectancy, (2) a choropleth map to illustrate the prevalence of high risk alcohol consumption, (3) a choropleth map to illustrate daily smoking prevalence, (4) a bubble chart that examines the relationship between overweight prevalence and health life expectancy, (5) a bubble chart that examines the relationship between high risk alcohol consumption and healthy life expectancy, and (6) a bubble chart that examines the relationship between daily smoking prevalence and healthy life expectancy. In this section, we'll look at how to make each of the charts.
 
 ### 2.1. Healthy Life Expectancy Choropleth Map
 
@@ -141,7 +141,7 @@ Before styling the traces we'll first adjust the font size. Hence, navigate to *
 ![Select Layout](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.4.2.png)
 
 ##### 2.4.3. Traces
-Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. For this one, we selected the fourth colorscale from the left, **blue to red**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **0** and *Max Value* to **100** and also changed the *Maximum Marker Size* to **60**.
+Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redefine the colorscale by simply choosing from the preselected scales. For this one, we selected the fourth colorscale from the left, **blue to red**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **0** and *Max Value* to **100** and also changed the *Maximum Marker Size* to **60**.
 
 ![Choose Colorscale](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.4.3.png)
 
@@ -175,7 +175,7 @@ Before styling the traces we'll first adjust the font size. Hence, navigate to *
 ![Select Layout](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.5.2.png)
 
 ##### 2.5.3. Traces
-Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redfine the colorscale by simply choosing from the preselected scales. For this one, we selected the sixth colorscale from the left, **dark purple to beige**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **1** and *Max Value* to **20** and also changed the *Maximum Marker Size* to **60**.
+Now that we have finished with styling the layout, click *Traces* to style the scatter points. We can redefine the colorscale by simply choosing from the preselected scales. For this one, we selected the sixth colorscale from the left, **dark purple to beige**. Farther down, we set our *Colorscale Range* to **Custom** and then adjusted the *Min Value* of our data to **1** and *Max Value* to **20** and also changed the *Maximum Marker Size* to **60**.
 
 ![Choose Colorscale](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_2/2.5.3.png)
 
@@ -258,7 +258,7 @@ Repeat the process for the remainder of the choropleth maps and bubble charts we
 
 ### 3.3. Style It
 
-Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you'll see the option settings from the menu. After clicking *settings*, a panel will appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter.
+Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *Settings Icon* directly opposite the dashboard title. When hovering you'll see the option settings from the menu. After clicking **Settings**, a panel will appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter.
 
 ![Dashboard Options](https://raw.githubusercontent.com/plotly/public-health/master/screencasts/IHME/tut_imag_4/3.png)
 
@@ -288,7 +288,7 @@ Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand
 
 ## 4. Crossfilter
 
-Finally, we'll briefly demonstate crossfilter. 
+Finally, we'll briefly demonstrate crossfilter. 
 
 **Crossfilter** is a visual analysis technique for multidimensional data that can help clarify correlations between dimensions.
 
