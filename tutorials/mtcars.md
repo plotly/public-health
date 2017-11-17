@@ -27,7 +27,7 @@ In the created dashboard, each of the six plots have been made with a unique dat
 | -------------- | ------------- |
 | Car Model Bar Chart | https://plot.ly/~bdun9/2395/  |
 | Mpg vs Cylinder Scatter Plot | https://plot.ly/~bdun9/2385/ |
-| Hp vs Acc Scatter Plot | https://plot.ly/~bdun9/2381/ |
+| Hp vs Acc Scatter Plot | https://plot.ly/~bdun9/2409 |
 | Hp vs Disp Scatter Plot | https://plot.ly/~bdun9/2405/  |
 | Weight vs Hp Scatter Plot | https://plot.ly/~bdun9/2384/  |
 | Weight vs Acc Scatter Plot | https://plot.ly/~bdun9/2382/  |
@@ -142,7 +142,7 @@ Congrats, your chart is complete! Click **Save** on the left-hand side of the sc
 
 
 ### 2.3. Hp vs Acc Scatter Plot
-Using the [Hp Vs Acc Scatter Plot grid](https://plot.ly/~bdun9/2381/), open the data in the Chart Studio.
+Using the [Hp Vs Acc Scatter Plot grid](https://plot.ly/~bdun9/2409), open the data in the Chart Studio.
 
 ##### 2.3.1. Create
 Now that we have the data in the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter Plot** from the *Business* column.
