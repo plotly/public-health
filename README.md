@@ -6,13 +6,14 @@
  
  ## Contents
  
-- [Crossfilter Overview](#crossfilter-overview)
-- [California Measles Outbreak](#california-measles-outbreak)
-- [Aid Agencies during Ebola Outbreak](#aid-agencies-during-ebola-outbreak)
-- [U.S. Police officer deaths by cause](#us-police-officer-deaths-by-cause)
-- [IHME Global Health Indicators](#ihme-global-health-indicators)
-- [Google Flu Trends](#google-flu-trends)
-- [Ebola Outbreaks 1976-2013](#ebola-outbreaks-1976-2013)
+0. [Crossfilter Overview](#crossfilter-overview)
+1. [California Measles Outbreak](#california-measles-outbreak)
+2. [Aid Agencies during Ebola Outbreak](#aid-agencies-during-ebola-outbreak)
+3. [U.S. Police officer deaths by cause](#us-police-officer-deaths-by-cause)
+4. [WHO Infant Mortality Index](#comparing-1990-and-2015-infant-mortality-index)
+5. [IHME Global Health Indicators](#ihme-global-health-indicators)
+6. [Google Flu Trends](#google-flu-trends)
+7. [Ebola Outbreaks 1976-2013](#ebola-outbreaks-1976-2013)
 
 ## Crossfilter Overview
 
