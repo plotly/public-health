@@ -178,7 +178,8 @@ If dashboard plots are made from multiple datasets and crossfilter is enabled, P
 7. Minimize the ink-to-data ratio: Make plots minimalistic or they will be overwhelming when combined in a dashboard.
 
 ![ink-data-ratio](https://static1.squarespace.com/static/56713bf4dc5cb41142f28d1f/t/5671eae2816924fc2265189a/1454121618204/data-ink.gif?format=750w)
-*(Data-Ink GIF via [Dark Horse](http://www.darkhorseanalytics.com/blog/data-looks-better-naked)*
+
+*(Fantastic GIF via [Dark Horse](http://www.darkhorseanalytics.com/blog/data-looks-better-naked)*
 
 ## Crossfilter for Data Scientists and Programmers
 
@@ -220,9 +221,9 @@ In 2018 we'll continue to add data selection and crossfilter responsivity across
 | Sankey diagrams (by click event)|                               |                                                       |
 | Violin plots                    |                               |                                                       |
 
-Related Plotly.js issues: https://github.com/plotly/plotly.js/milestone/25
+[Related Plotly.js issues](https://github.com/plotly/plotly.js/milestone/25)
 
-### Optimizing Plotly.restyle and Plotly.addTraces speed
+### 2. Optimizing Plotly.restyle and Plotly.addTraces speed
 
 Crossfilter on Plot.ly currently works by:
 
@@ -232,8 +233,8 @@ Crossfilter on Plot.ly currently works by:
 
 In order to achieve subsecond dashboard updates with crossfilter, [Plotly.restyle](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyrestyle) and [Plotly.addTraces](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyaddtraces) will need to be optimized.
 
-Related Plotly.js issues: https://github.com/plotly/plotly.js/issues/1850
+[Related Plotly.js issues](https://github.com/plotly/plotly.js/issues/1850)
 
-### Open-source plotly.js-crossfilter library
+### 3. Open-source plotly.js-crossfilter library
 
 The Plotly.js crossfilter wrapper written for Plot.ly dashboards will be documented and published on NPM for so that Web developers can build Tableau-style dashboards without getting bogged down in the low level interfaces of [crossfilter.js](https://github.com/square/crossfilter), [Plotly.restyle](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyrestyle), and [Plotly.addTraces](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyaddtraces).
