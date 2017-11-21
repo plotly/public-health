@@ -14,6 +14,7 @@
 5. [IHME Global Health Indicators](#ihme-global-health-indicators)
 6. [Google Flu Trends](#google-flu-trends)
 7. [Ebola Outbreaks 1976-2013](#ebola-outbreaks-1976-2013)
+8. [Dashboard Pro Tips](#pro-tips)
 
 ## Crossfilter Overview
 
@@ -146,3 +147,38 @@ To make crossfilter dashboards in plot.ly, make sure each dashboard chart is mad
 - This dashboard is mainly to show using crossfilter with tables.
 
 ![ebola-outbreak-dashboard](https://github.com/plotly/public-health/raw/master/screencasts/ebola_outbreak.png)
+
+## Pro Tips
+
+Here are a few Pro Tips when creating crossfilter dashboards on Plot.ly:
+
+1. To enable crossfilter in Plot.ly dashboards, make sure that all graphs in the dashboard are made from the same dataset and that crossfilter is enabled in the Filter tab of Dashboard Settings.
+
+2. Right-click (or Ctrl-click) on the Plot.ly spreadsheet for a menu of data preparation tools including:
+ - Convert dates to Plotly date format
+  - E.g. **December 10, 2016 -> 12-10-2016**
+ - Find... Replace
+ - Merge 2 or more columns with a delimiter
+  - E.g. **| December | 10 | -> December-10**
+ - Merge week of year and year columns into Plotly date format
+  - E.g. **| 48 | 2016 | -> 12-28-2016**
+ - Convert **state name** to **state abbreviation** (for use in choropleth maps)
+  - E.g. **Vermont -> VT**
+ - Cumulative sum
+ - Sometimes you will still have to prep datasets before plotting using a tool like Google Sheets, Python, or R
+
+3. Raw CSV links on GitHub such as https://gist.githubusercontent.com/omarish/5687264/raw/7e5c814ce6ef33e25d5259c1fe79463c190800d9/mpg.csv can be imported directly into Plot.ly from the the "URL" tab of the Import tool.
+
+4. You can access the dataset behind a dashboard plot by:
+ a. Selecting "View Plot" under the cog menu in the upper-right corner of the plot
+ b. On the plot page, select the "Sources" tab. "Sources" is a tree view of the data sources that make up a plot. The data sources can be created by the author of the plot or a different Plot.ly user.
+ c. In the tree view, the root nodes on the left side are the datasets that make up the plot. Click on them to go to the home page for the dataset.
+ 
+ 5. Use the [Plotly modebar](https://help.plot.ly/getting-to-know-the-plotly-modebar/) in the upper-right corner of dashboard plots to change the cursor mode between hover, zoom, and panning states. The modebar can also download a PNG image of plots.
+ 
+ 6. Disable default zoom in dashboard plots to prevent users from accidentally zooming as they scroll through your dashboard. You can disabled zoom for your plot under **Axes -> Zoom Interactivity** inside [Chart Studio](https://plot.ly/online-chart-maker/).
+ 
+ 7. Minimize the ink-to-data ratio: Make plots minimalistic or they will be overwhelming when combined in a dashboard.
+ 
+![ink-data-ratio](https://static1.squarespace.com/static/56713bf4dc5cb41142f28d1f/t/5671eae2816924fc2265189a/1454121618204/data-ink.gif?format=750w)
+(Data-Ink GIF via [Dark Horse](http://www.darkhorseanalytics.com/blog/data-looks-better-naked)
