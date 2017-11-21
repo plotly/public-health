@@ -156,18 +156,18 @@ Here are a few Pro Tips when creating crossfilter dashboards on Plot.ly:
 
 2. Right-click (or Ctrl-click) on the Plot.ly spreadsheet for a menu of data preparation tools including:
  - Convert dates to Plotly date format
-  - E.g. **December 10, 2016 -> 12-10-2016**
+  * E.g. **December 10, 2016 -> 12-10-2016**
  - Find... Replace
  - Merge 2 or more columns with a delimiter
-  - E.g. **| December | 10 | -> December-10**
+  * E.g. **| December | 10 | -> December-10**
  - Merge week of year and year columns into Plotly date format
-  - E.g. **| 48 | 2016 | -> 12-28-2016**
+  * E.g. **| 48 | 2016 | -> 12-28-2016**
  - Convert **state name** to **state abbreviation** (for use in choropleth maps)
-  - E.g. **Vermont -> VT**
+  * E.g. **Vermont -> VT**
  - Cumulative sum
  - Sometimes you will still have to prep datasets before plotting using a tool like Google Sheets, Python, or R
 
-3. Raw CSV links on GitHub such as https://gist.githubusercontent.com/omarish/5687264/raw/7e5c814ce6ef33e25d5259c1fe79463c190800d9/mpg.csv can be imported directly into Plot.ly from the the "URL" tab of the Import tool.
+3. Raw CSV links on GitHub such as [https://gist.githubusercontent.com/.../mpg.csv](https://gist.githubusercontent.com/omarish/5687264/raw/7e5c814ce6ef33e25d5259c1fe79463c190800d9/mpg.csv) can be imported directly into Plot.ly from the the "URL" tab of the Import tool.
 
 4. You can access the dataset behind a dashboard plot by:
  a. Selecting "View Plot" under the cog menu in the upper-right corner of the plot
