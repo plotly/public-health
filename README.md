@@ -15,8 +15,8 @@
 6. [Google Flu Trends](#google-flu-trends)
 7. [Ebola Outbreaks 1976-2013](#ebola-outbreaks-1976-2013)
 8. [Dashboard Pro Tips](#pro-tips)
-9. [Crossfilter for Data Scientists and Programmers](crossfilter-for-data-scientists-and-programmers)
-10. [Roadmap](roadmap)
+9. [Crossfilter for Data Scientists and Programmers](#crossfilter-for-data-scientists-and-programmers)
+10. [Roadmap](#roadmap)
 
 ## Crossfilter Overview
 
