@@ -235,6 +235,6 @@ In order to achieve subsecond dashboard updates with crossfilter, [Plotly.restyl
 
 [Related Plotly.js issues](https://github.com/plotly/plotly.js/issues/1850)
 
-### 3. Open-source plotly.js-crossfilter library
+### 3. Open-sourcing crosslink-plotly.js library
 
-The Plotly.js crossfilter wrapper written for Plot.ly dashboards will be documented and published on NPM for so that Web developers can build Tableau-style dashboards without getting bogged down in the low level interfaces of [crossfilter.js](https://github.com/square/crossfilter), [Plotly.restyle](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyrestyle), and [Plotly.addTraces](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyaddtraces).
+The Plotly.js crossfilter wrapper written for Plot.ly dashboards ([crosslink-plotly.js](https://github.com/plotly/crosslink-plotly.js)) will be documented and published on NPM so that Web developers can build Tableau-style dashboards without getting bogged down in the low level interfaces of [crossfilter.js](https://github.com/square/crossfilter), [Plotly.restyle](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyrestyle), and [Plotly.addTraces](https://plot.ly/javascript/plotlyjs-function-reference/#plotlyaddtraces).
